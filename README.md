@@ -1,6 +1,8 @@
-# rheology_lecture_note
-这是一个流变学讲义的项目。作者：孙尉翔。邮箱：mswxsun@scut.edu.cn
-这个流变学讲义是在Overleaf上创作的。
+# mathematics, its programming in python and illustration in PostScript 
+这是一个《数学编程与制图 - python 与 PostScript》写作项目。作者：龙 冰、钟尔杰、杨益民。本书\LaTeX 文件档案采用了孙尉翔的模板。
+他的流变学讲义是在Overleaf上创作的。
+\\
+以下是他的说明：
 Overleaf公共查看链接：https://www.overleaf.com/read/tvjsqgbxpywf
 通过上面的Overleaf链接，你同样可以浏览tex原代码和编译PDF文件。
 完整讲义的主文件是根目录下的main.tex，直接编译这个文件可以获得完整讲义的pdf。
