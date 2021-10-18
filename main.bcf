@@ -2831,10 +2831,6 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1">邓文基2009大物上</bcf:citekey>
-    <bcf:citekey order="2">邓文基2009大物上</bcf:citekey>
-    <bcf:citekey order="3">华工高数2009下</bcf:citekey>
-    <bcf:citekey order="4">邓文基2009大物下</bcf:citekey>
-    <bcf:citekey order="5">钟理化工原理上册2008</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
