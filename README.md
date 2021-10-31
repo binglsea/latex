@@ -1,5 +1,5 @@
 # mathematics, its programming in python and illustration in PostScript 
-这是一个《数学编程与制图 - python 与 PostScript》写作项目。作者：龙 冰、钟尔杰、杨益民。本书\LaTeX 文件档案采用了孙尉翔的模板。
+这是一个《数学编程与制图 - python 与 PostScript》写作项目。作者：龙 冰。本书\LaTeX 文件档案采用了孙尉翔的模板。
 他的流变学讲义是在Overleaf上创作的。
 \\
 以下是他的说明：
