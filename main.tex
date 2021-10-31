@@ -1,4 +1,4 @@
-\documentclass[zihao=-4,linespread=1.5,heading=true,a4paper,twoside]{ctexart}
+\documentclass[zihao=-4,linespread=1.5,heading=true,a4paper,twoside]{ctexbook}
 \usepackage[utf8]{inputenc}
 \pagestyle{empty}
 % packages for page layout
@@ -104,7 +104,7 @@ sorting=none
 
 \title{\begin{kaishu}数学：编程与作图\end{kaishu}\\
 	Python 与 PostScript 的浅入深出}
-\author{\kaishu 龙\,  冰\, \, 钟尔杰\,\,  等}
+\author{\kaishu 龙\,  冰}
 %=====================================================================================================================
 \begin{document}
 \begin{titlepage}
@@ -116,8 +116,14 @@ sorting=none
 
 \newpage\tableofcontents
 
-\newpage\part{开源软件安装}
-\section{选择 Python 开发环境，安装软件}\label{sec:II.1}
+\newpage\part{预备}
+热身
+\section{数学：表达美和创造美}\label{sec:I.1}
+\subfile{part1/math_prelim.tex}
+\subfile{part1/number_bases.tex}
+\subfile{part1/paper_sizes.tex}
+\subfile{part1/colors.tex}
+\section{选择 Python 开发环境，安装软件}\label{sec:II.2}
 \subfile{part1/py_install.tex}
 
 \newpage\part{Python 程序设计}
@@ -129,6 +135,8 @@ sorting=none
 \section{Some graphs}
 \subfile{ps/3.1.tex}
 
+\section{A List}
+\subfile{ref/reference.tex}
 
 \newpage\part*{参考文献}
 \printbibliography[heading=none]
