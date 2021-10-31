@@ -1,0 +1,16 @@
+%!PS
+/side_a 100 def
+/side_b 60 def
+/rightTrianglePath { 
+ newpath
+ moveto
+ side_a 0 rlineto
+ side_a neg side_b rlineto
+ closepath } def
+
+
+5 5 rightTrianglePath
+1 0 0 setrgbcolor
+fill
+
+showpage 
