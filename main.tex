@@ -27,14 +27,6 @@ top=25.4mm,
 \usepackage{capt-of}
 \usepackage{cutwin}
 
-% packages for page layout
-\usepackage{geometry}
-\geometry{
-a4paper,
-total={171.8mm,246.2mm},
-left=19.1mm,
-top=25.4mm,
-}
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhead{}
@@ -50,11 +42,9 @@ top=25.4mm,
 \usepackage{enumitem}% http://ctan.org/pkg/enumitem
 \setlist{nosep}
 
-
-
 % package for hyperlinks
 \usepackage{hyperref}
-\hypersetup{colorlinks=true}
+\hypersetup{colorlinks=true, linkcolor=black}
 
 % packages for footnotes
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
@@ -71,7 +61,6 @@ sorting=none
 \addbibresource{./ref/ref.bib}
 
 \usepackage{svg}
-
 \usepackage{alltt}
 
 % packages for definitions, theorems, proofs.
@@ -99,8 +88,7 @@ sorting=none
 % package for subfiles
 \usepackage{subfiles}
 
-\usepackage{datetime2}
-
+%\usepackage{datetime2}
 
 
 \title{\begin{kaishu}数学：编程与作图\end{kaishu}\\
@@ -111,13 +99,11 @@ sorting=none
 \begin{titlepage}
 	\maketitle
 \end{titlepage}
-
-\part*{\kaishu 前\, 言}\label{sec:preface}
+\tableofcontents
+\part{\kaishu 前\, 言}\label{sec:preface}
 \subfile{preface.tex}
 
-\newpage\tableofcontents
-
-\newpage\part{数学：表达美和创造美}
+\part{数学：表达美和创造美}
 热身
 \section{数学：表达美和创造美}\label{sec:I.1}
 \subfile{part1/math_prelim.tex}
