@@ -1,4 +1,4 @@
-\documentclass[zihao=-4,linespread=1.5,heading=true,a4paper,twoside]{ctexbook}
+\documentclass[zihao=-4,linespread=1.5,heading=true,a4paper,twoside]{ctexart}
 \usepackage[utf8]{inputenc}
 \pagestyle{empty}
 
@@ -13,6 +13,7 @@ top=25.4mm,
 
 % package for colors
 \usepackage{xcolor}
+\usepackage[contents=Review Copy]{background}
 
 % packages for fonts
 \usepackage{amsmath}
@@ -26,6 +27,7 @@ top=25.4mm,
 \usepackage{subcaption}
 \usepackage{capt-of}
 \usepackage{cutwin}
+\usepackage{animate}
 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -92,7 +94,7 @@ sorting=none
 
 
 \title{\begin{kaishu}数学：编程与作图\end{kaishu}\\
-	Python 与 PostScript 的浅入深出}
+	Python、PostScript 和 SVG 的浅入}
 \author{\kaishu 龙\,  冰}
 %=====================================================================================================================
 \begin{document}
@@ -100,7 +102,7 @@ sorting=none
 	\maketitle
 \end{titlepage}
 \tableofcontents
-\part{\kaishu 前\, 言}\label{sec:preface}
+\part*{\kaishu 前\, 言}\label{sec:preface}
 \subfile{preface.tex}
 
 \part{数学：表达美和创造美}
