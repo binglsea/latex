@@ -40,15 +40,19 @@ $(a+b)^2 = a^2 + 2ab + b^2$
 \end{figure}
 \fi
 
+line spread
 
-\begin{alltt}
+line spread
+dfdsa;fkadf
+
+\begin{lstlisting}[language=PostScript]
 %!PS
 /side 80 def %%定义边长 
 
 /angle { %%定义五角星的一个尖角   
-	side neg 0 rlineto
-	currentpoint translate
-	-36 rotate
+ side neg 0 rlineto
+ currentpoint translate
+-36 rotate
 	side 0 rlineto } def
 
 /star {
@@ -71,7 +75,10 @@ grestore
 stroke
 
 showpage
-\end{alltt}
+\end{lstlisting}
+
+
+
 
 Something
 \begin{figure}[h]
