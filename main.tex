@@ -54,12 +54,7 @@ top=25.4mm,
 \MakePerPage{footnote} 
 
 % packages for bibliography
-\usepackage[
-backend=biber,
-style=gb7714-2015,
-gbpub=false,
-sorting=none
-]{biblatex}
+\usepackage[backend=biber,style=gb7714-2015,gbpub=false,sorting=none]{biblatex}
 \addbibresource{./ref/ref.bib}
 
 \usepackage{imakeidx}
@@ -131,8 +126,8 @@ sorting=none
 \section{A List}
 \subfile{ref/reference.tex}
 
-\part*{参考文献}
-\printbibliography[heading=none]
-\end{document}
-
 \printindex
+\printbibliography
+
+
+\end{document}
