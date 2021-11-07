@@ -1,4 +1,4 @@
-\documentclass[zihao=-4,linespread=1.5,heading=true,a4paper,twoside]{ctexart}
+\documentclass[zihao=-4,heading=true,a4paper,twoside,openany]{ctexbook}
 \usepackage[utf8]{inputenc}
 \pagestyle{empty}
 
@@ -62,8 +62,11 @@ sorting=none
 ]{biblatex}
 \addbibresource{./ref/ref.bib}
 
+\usepackage{imakeidx}
+\makeindex
+
 \usepackage{svg}
-\usepackage{alltt}
+\usepackage{listings}
 
 % packages for definitions, theorems, proofs.
 \usepackage{amsthm}
@@ -96,28 +99,29 @@ sorting=none
 \title{\begin{kaishu}数学：编程与作图\end{kaishu}\\
 	Python、PostScript 和 SVG 的浅入}
 \author{\kaishu 龙\,  冰}
+\date{}
 %=====================================================================================================================
 \begin{document}
 \begin{titlepage}
 	\maketitle
 \end{titlepage}
 \tableofcontents
-\part*{\kaishu 前\, 言}\label{sec:preface}
+\part*{\kaishu 前\, 言}%\label{sec:preface}
 \subfile{preface.tex}
 
 \part{数学：表达美和创造美}
-热身
-\section{数学：表达美和创造美}\label{sec:I.1}
+\chapter{数学：表达美和创造美}%\label{sec:I.1}
 \subfile{part1/math_prelim.tex}
 \subfile{part1/number_bases.tex}
 \subfile{part1/paper_sizes.tex}
 \subfile{part1/colors.tex}
-\section{选择 Python 开发环境，安装软件}\label{sec:II.2}
-\subfile{part1/py_install.tex}
-
-\newpage\part{Python 程序设计}
 \section{常用进位制}\label{sec:II.2}
 \subfile{part2/nadic.tex}
+
+\part{Python 程序设计}
+\chapter{选择 Python 开发环境，安装软件}\label{sec:II.2}
+\subfile{part1/py_install.tex}
+
 
 
 \newpage\part{PostScript 编程制图}
@@ -127,6 +131,8 @@ sorting=none
 \section{A List}
 \subfile{ref/reference.tex}
 
-\newpage\part*{参考文献}
+\part*{参考文献}
 \printbibliography[heading=none]
 \end{document}
+
+\printindex
