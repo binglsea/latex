@@ -62,6 +62,9 @@ sorting=none
 ]{biblatex}
 \addbibresource{./ref/ref.bib}
 
+\usepackage{imakeidx}
+\makeindex
+
 \usepackage{svg}
 \usepackage{listings}
 
@@ -103,7 +106,7 @@ sorting=none
 	\maketitle
 \end{titlepage}
 \tableofcontents
-\part*{\kaishu 前\, 言}\label{sec:preface}
+\part*{\kaishu 前\, 言}%\label{sec:preface}
 \subfile{preface.tex}
 
 \part{数学：表达美和创造美}
@@ -131,3 +134,5 @@ sorting=none
 \part*{参考文献}
 \printbibliography[heading=none]
 \end{document}
+
+\printindex
