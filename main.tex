@@ -4,12 +4,7 @@
 
 % packages for page layout
 \usepackage{geometry}
-\geometry{
-a4paper,
-total={171.8mm,246.2mm},
-left=19.1mm,
-top=25.4mm,
-}
+\geometry{a4paper,total={171.8mm,246.2mm},left=19.1mm,top=25.4mm,}
 
 % package for colors
 \usepackage{xcolor}
@@ -54,12 +49,7 @@ top=25.4mm,
 \MakePerPage{footnote} 
 
 % packages for bibliography
-\usepackage[
-backend=biber,
-style=gb7714-2015,
-gbpub=false,
-sorting=none
-]{biblatex}
+\usepackage[backend=biber,style=gb7714-2015,gbpub=false,sorting=none]{biblatex}
 \addbibresource{./ref/ref.bib}
 
 \usepackage{imakeidx}
@@ -105,9 +95,10 @@ sorting=none
 \begin{titlepage}
 	\maketitle
 \end{titlepage}
-\tableofcontents
-\part*{\kaishu 前\, 言}%\label{sec:preface}
+\chapter*{\kaishu 前\, 言}%\label{sec:preface}
 \subfile{preface.tex}
+
+\tableofcontents
 
 \part{数学：表达美和创造美}
 \chapter{数学：表达美和创造美}%\label{sec:I.1}
@@ -131,8 +122,8 @@ sorting=none
 \section{A List}
 \subfile{ref/reference.tex}
 
-\part*{参考文献}
-\printbibliography[heading=none]
-\end{document}
-
 \printindex
+\printbibliography
+
+
+\end{document}
