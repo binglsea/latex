@@ -18,12 +18,7 @@
 	\label{fig:III.1.1}
 \end{figure}
 
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=0.5\textwidth]{images/ps.1.1.eps}
-	\caption{$(a+b)^2 = a^2 + 2ab + b^2$}
-	\label{fig:III.1.1}
-\end{figure}	
+
 	
 	
 	
@@ -33,7 +28,7 @@ $(a+b)^2 = a^2 + 2ab + b^2$
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.5\textwidth]{images/ps.1.1.eps}
+    \includegraphics[width=0.5\textwidth]{eps/ps.1.1.eps}
     \caption{$(a+b)^2 = a^2 + 2ab + b^2$}
     \label{fig:III.1.1}
 \end{figure}
@@ -43,14 +38,14 @@ $(a+b)^2 = a^2 + 2ab + b^2$
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.5\textwidth]{images/star.eps}
+	\includegraphics[width=0.5\textwidth]{eps/star.eps}
 	\caption{红五星}
 	\label{fig:III.1.2}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.5\textwidth]{images/ps/ch_gougu.jpg}
+	\includegraphics[width=0.5\textwidth]{jpg/gougu.jpg}
 	\caption{《周髀算经》勾股定理图}
 	\label{fig:III.1.3}
 \end{figure}
@@ -69,38 +64,39 @@ line spread
 line spread
 dfdsa;fkadf
 
+\begin{spacing}{0.8}
 \begin{lstlisting}[language=PostScript]
-%!PS
+%!PS-Adobe-3.0
 /side 80 def %%定义边长 
 
-/angle { %%定义五角星的一个尖角   
+/angle { %%定义五角星的一个尖角
  side neg 0 rlineto
  currentpoint translate
--36 rotate
-	side 0 rlineto } def
+ -36 rotate
+  side 0 rlineto } def
 
 /star {
-	newpath
-	moveto
-	angle  %%先定义一个尖角
-	4 { currentpoint translate
-		108 rotate
-		angle } repeat %%然后靠旋转坐车标系后作出其它四个角色
-	closepath } def
+ newpath
+ moveto
+ angle  %%先定义一个尖角
+ 4 { currentpoint translate
+  108 rotate angle 
+ } repeat %%然后旋转坐车标系后作出其它四个角色
+ closepath } def
 
 gsave  %%保存原始坐标系统的信息
 300 500 star  %%描出五星的轮廓路径
-1 0 0 setrgbcolor  %%填充红色
-fill %%绘出红五星,然后轮廓路径就消失
+1 0 0 setrgbcolor  %%设置红色
+fill %%填充绘出红五星,然后轮廓路径就消失
 grestore
 
-300 500 star %%重要新闻描出五星的轮廓路径
+300 500 star %%重新描出五星的轮廓路径
 0 setgray %%加黑边
 stroke
 
 showpage
 \end{lstlisting}
-
+\end{spacing}
 
 
 

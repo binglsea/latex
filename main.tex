@@ -58,6 +58,8 @@
 \usepackage{svg}
 \usepackage{listings}
 
+\usepackage{setspace}
+
 % packages for definitions, theorems, proofs.
 \usepackage{amsthm}
 \newtheorem{definition}{定义}
@@ -95,33 +97,35 @@
 \begin{titlepage}
 	\maketitle
 \end{titlepage}
-\chapter*{\kaishu 前\, 言}%\label{sec:preface}
+\chapter*{\kaishu 前\, 言}\label{chap:preface}
 \subfile{preface.tex}
 
 \tableofcontents
 
 \part{数学：表达美和创造美}\label{part:表达美和创造美}
-\chapter{数学：表达美和创造美}%\label{sec:I.1}
-\subfile{math/math_prelim.tex}
-\subfile{math/number_bases.tex}
-\subfile{math/paper_sizes.tex}
-\subfile{math/colors.tex}
+\chapter{数学：表达美和创造美}\label{chap:1}
+\section{数}\subfile{math/numbers.tex}
+\section{数的进位制}\subfile{math/bases.tex}
+\section{尺寸}\subfile{math/sizes.tex}
+\section{颜色}\subfile{math/colors.tex}
+\section{图}\subfile{math/graphs.tex}
 
 \part{Python 编程}
-\chapter{选择 Python 开发环境，安装软件}\label{sec:II.2}
-\subfile{py/py_install.tex}
+\chapter{选择 Python 开发环境，安装软件}\label{chap:2}
+\section{title}\subfile{py/py_install.tex}
 
 \section{常用进位制}\label{sec:I.2}
 \subfile{py/nadic.tex}
 
 
-\newpage\part{PostScript 编程作图}
+\part{PostScript 编程作图}
 \section{Some graphs}
 \subfile{ps/3.1.tex}
 
 \section{A List}
 \subfile{ref/reference.tex}
 
+\part{Python 作图}
 \printindex
 \printbibliography
 
