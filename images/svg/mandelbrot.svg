@@ -1,0 +1,29 @@
+<svg width='300' height='270' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>";
+//mandelbrot works
+var z=1;
+for(k=0;k<zoom;k++){
+    z=z*10/3;
+    }
+for(j=0;j<270;j++){
+    for(i=0;i<300;i++){
+        x=0;
+        y=0;
+        cre=(i-150)/(100*z)+xcentre;
+        cim=(j-135)/(100*z)-ycentre;
+        iterations=0;
+        while(x*x+y*y<=4 && iterations<400){
+            xtemp=x*x-y*y+cre;
+            y=2*x*y+cim;
+            x=xtemp;
+            iterations+=1;
+            }
+        if(iterations>=399){
+            im=im+"<rect x='"+i+"' y='"+j+"' width='1' height='1' fill='"+c[0]+"'></rect>";
+            }
+        else{
+            index=iterations%99+1;
+            im=im+"<rect x='"+i+"' y='"+j+"' width='1' height='1' fill='"+c[index]+"'></rect>";
+            }
+        }
+    }
+im=im+"</svg>
