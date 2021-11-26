@@ -48,3 +48,16 @@ for i in range(0, 11):
     w = h/2   #新宽度为原高度的一半
     h = tmp   #新高度为原宽度
 
+#%% B0 至 B10 系列纸张的理论尺寸 = ISO 216 标准尺寸
+w = 1000
+h = 1414
+print("B系列纸张的理论尺寸和 ISO 216 标准尺寸:")
+i = 0
+while i < 11:
+    b_i = "{:>3} {:-4}开".format('B'+str(i), 2**i)
+    print("{}: {:4.0f}毫米 x {:4.0f}毫米".format(b_i, int(w), int(h)))
+    tmp = w
+    w = h/2  
+    h = tmp
+    i += 1
+
