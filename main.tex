@@ -1,10 +1,13 @@
 \documentclass[zihao=-4,heading=true,a4paper,twoside,openany]{ctexbook}
+%\documentclass[hep,10pt]{hepbook}
+%\usepackage{HEP}
 \usepackage[utf8]{inputenc}
-\pagestyle{empty}
+%\pagestyle{empty}
 
 % packages for page layout
-\usepackage{geometry}
-\geometry{a4paper,total={171.8mm,246.2mm},left=19.1mm,top=25.4mm,}
+%\usepackage{geometry}
+%\geometry{a4paper,total={171.8mm,246.2mm},left=19.1mm,top=25.4mm,}
+\usepackage[body={132mm,198mm},centering]{geometry}
 
 % package for colors
 \usepackage{xcolor}
@@ -26,7 +29,7 @@
 \usepackage{tikz}
 
 \usepackage{fancyhdr}
-\pagestyle{fancy}
+%\pagestyle{fancy}
 \fancyhead{}
 \fancyhead[LE,RO]{\leftmark}
 \fancyfoot{}
@@ -43,6 +46,8 @@
 % package for hyperlinks
 \usepackage{hyperref}
 \hypersetup{colorlinks=true, linkcolor=black}
+
+\usepackage[T1]{fontenc}
 
 % packages for footnotes
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}
@@ -88,6 +93,7 @@
 
 %\usepackage{datetime2}
 
+\frontmatter
 
 \title{\begin{kaishu}数学：编程与作图\end{kaishu}\\
 	Python、PostScript 和 SVG 的浅入}
@@ -98,10 +104,15 @@
 \begin{titlepage}
 	\maketitle
 \end{titlepage}
-\chapter*{\kaishu 前\, 言}\label{chap:preface}
-\subfile{preface.tex}
 
+\pagenumbering{roman}
+\setcounter{page}{5}%
+\include{preface}%\cdp
+\markboth{目\quad 录}{目\quad 录}
 \tableofcontents
+
+\mainmatter
+\pagenumbering{arabic}
 
 \part{\begin{lishu}数学：表达美和创造美\end{lishu}}\label{part:表达美和创造美}
 \chapter{数学：表达美和创造美}\label{chap:1}
@@ -140,9 +151,17 @@
 
 \part{\begin{lishu}Python 作图\end{lishu}}
 
+\backmatter
 
-\printindex
 \printbibliography
 
+\begin{small}
+	\thispagestyle{empty}
+	\onecolumn
+	\addcontentsline{toc}{chapter}{\indexname}
+	\printindex
+\end{small}
+\vfill
+\eject
 
 \end{document}

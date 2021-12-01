@@ -1,0 +1,501 @@
+%\RequirePackage{times}  %,mathptm} %<<<<!!!
+%\RequirePackage{avant}
+%\RequirePackage{dtklogos}
+\RequirePackage{amsmath,amsthm,amssymb,amsxtra}  %<<<
+\RequirePackage{ifthen}
+\RequirePackage{calc}
+\RequirePackage{array}
+\RequirePackage{epsfig,epsf,rotating}
+\RequirePackage{fancyheadings}
+\RequirePackage{titlesec}
+\RequirePackage[strict]{changepage}
+\RequirePackage{bm}
+\RequirePackage{picins}
+\RequirePackage[footnotesize]{caption2}
+\RequirePackage{makeidx}
+%\RequirePackage{fancyhdr}
+\RequirePackage{etoolbox}
+\RequirePackage{color}
+\RequirePackage{indentfirst}
+\definecolor{EWOMgray}{gray}{.6}
+\definecolor{textboxgray}{gray}{.9}
+\definecolor{textboxwhite}{gray}{1}
+\setlength{\topmargin}{0mm}%
+\setlength{\textwidth}{132mm}%
+\setlength{\textheight}{198mm}%
+\setlength{\topskip}{0mm}%
+\setlength{\parindent}{2em}%
+\setlength{\parskip}{2pt}%
+\setlength{\headheight}{12pt}%
+\setlength{\headsep}{6mm}%
+\newlength{\headlinerulewidth}%
+\setlength{\headlinerulewidth}{2mm}%  <<<<
+\newlength{\headlineruleraise}%
+\setlength{\headlineruleraise}{0mm}%
+\newlength{\headlinerulesep}%
+\setlength{\headlinerulesep}{0mm}%
+\newlength{\headlinesep}%
+\setlength{\headlinesep}{34mm}% <<< statt 34 mm
+\newlength{\thmrule}%
+\setlength{\thmrule}{2mm}%  <<<<<<<< statt 2 mm
+\newlength{\thmwidth}%
+\setlength{\thmwidth}{\textwidth - 5\thmrule}%
+%\newlength{\thmheight}%
+\newlength{\boxrule}%
+\setlength{\boxrule}{0.5pt}%  <<<< statt .4, was zu schmal ist.
+\newlength{\boxwidth}%
+\setlength{\boxwidth}{\textwidth - 2\boxrule - 4 \thmrule}%
+\newlength{\partpageheight}%
+\setlength{\partpageheight}{\textheight - \headlinesep}%
+\newcommand{\headlinerule}{%
+}%
+\setlength{\oddsidemargin}{(\paperwidth - \textwidth - \marginparwidth -
+  \marginparsep -  (1in + \hoffset) * 2)/2}
+\setlength{\evensidemargin}{\paperwidth - (1in + \hoffset) * 2
+   - \oddsidemargin - \textwidth}
+\pagestyle{fancyplain}
+\addtolength{\headheight}{3pt}
+\newcommand{\pushout}{\raggedleft}%
+\newcommand{\pushin}{\raggedright}%
+\lhead[%
+\fancyplain{%
+  \headlinerule%
+  }{%
+  \small\thepage%VI%
+  }%
+]{%
+  \fancyplain{%
+    \headlinerule%
+    }{%
+    \small\SONG\rightmark%
+    }%
+  }%
+\rhead[%
+\fancyplain{%
+  \headlinerule%
+  }{%
+  \small\SONG\leftmark%
+  }]{%
+  \fancyplain{%
+    \headlinerule%
+    }{%
+    \small\thepage%
+    }}%
+\cfoot{\fancyplain{}{}}
+%%
+\renewcommand\part{%
+  \if@openright
+    \cleardoublepage
+  \else
+    \clearpage
+  \fi
+  \thispagestyle{plain}%
+  \if@twocolumn
+    \onecolumn
+    \@tempswatrue
+  \else
+    \@tempswafalse
+  \fi
+%%  \null\vfil
+  \secdef\@part\@spart}
+\renewcommand\@spart[1]{%
+  {
+    \interlinepenalty \@M
+    \normalfont
+    \markboth{#1}{#1}%               % <<<< GMZ
+    \vspace*{\headlinerulesep}%
+      \Huge \bfseries \sffamily #1   %<<<< statt huge
+    \marginpar{%
+      }%
+    }%
+  }%
+\renewcommand\chaptermark[1]{\markboth {\uppercase{\ifnum
+\c@secnumdepth>\m@ne
+ \HZdi\HZnumber{\thechapter}\@chapapp \quad \fi #1}}{\uppercase{\ifnum
+\c@secnumdepth>\m@ne
+ \HZdi\HZnumber{\thechapter}\@chapapp \quad \fi #1}}}
+\renewcommand\sectionmark[1]{\markright{\uppercase{\ifnum \c@secnumdepth >\z@
+ \thesection\quad\fi #1}}}
+
+%%
+\renewcommand{\uppercase}{}
+%%
+\renewcommand{\@makechapterhead}[1]{%
+  %%  \vspace*{50\p@}%
+  {%
+    \parindent \z@ \raggedright \normalfont
+      \vspace*{\headlinerulesep}%
+      \LARGE \bf \HZdi\HZnumber{\thechapter}\@chapapp{}\quad #1\par\nobreak
+      \vspace*{\headlinerulesep}%
+    \hrule
+    \ifnum \c@secnumdepth >\m@ne
+    {%
+      \if@mainmatter
+      {%
+        %%    \vskip 20\p@
+        }%
+      \fi
+      }%
+    \fi
+    \interlinepenalty\@M
+    %%    \vskip 40\p@
+    }%
+  }%
+\renewcommand{\@makeschapterhead}[1]{%
+  {%
+    \parindent \z@ \centering
+    \normalfont
+    \interlinepenalty\@M
+      \vspace*{\headlinerulesep}%
+      \LARGE \XHI #1\par\nobreak
+    \marginpar{%
+      }%
+    %%    \vskip 40\p@
+    }%
+  }%
+\renewcommand{\chapter}{%
+  \clearpage
+  \thispagestyle{plain}%
+  \global\@topnum\z@
+  \@afterindentfalse
+  \secdef\@chapter\@schapter
+  }%
+%%
+\numberwithin{equation}{chapter}%
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% User Interface
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%----------------------
+%% Theorem environments:
+%%----------------------
+\newtheoremstyle{cplain}
+  {2mm}   % ABOVESPACE
+  {2mm}   % BELOWSPACE
+  {\KAI}  % BODYFONT
+  {}       % INDENT (empty value is the same as 0pt)
+  {\bfseries} % HEADFONT
+  {\ }         % HEADPUNCT
+  {5pt plus 1pt minus 1pt} % HEADSPACE
+  {{\thmname{#1}\thmnumber{ #2}\thmnote{\bf~(#3)}}}          % CUSTOM-HEAD-SPEC
+
+\newtheoremstyle{cdefinition}
+  {2mm}   % ABOVESPACE
+  {2mm}   % BELOWSPACE
+  {\normalfont}  % BODYFONT
+  {}       % INDENT (empty value is the same as 0pt)
+  {\bfseries} % HEADFONT
+  {\ }         % HEADPUNCT
+  {5pt plus 1pt minus 1pt} % HEADSPACE
+  {{\thmname{#1}\thmnumber{ #2}\thmnote{\bf~(#3)}}}          % CUSTOM-HEAD-SPEC
+
+\theoremstyle{cplain}%
+\newtheorem{theorem}{定理}[chapter]%
+\newtheorem{proposition}[theorem]{命题}%
+\newtheorem{lemma}[theorem]{引理}%
+\newtheorem{corollary}[theorem]{推论}%
+\newtheorem{definition}[theorem]{定义}%
+\newtheorem{exe}[theorem]{习题}%
+\newtheorem{assumption}[theorem]{假设}%
+\newtheorem{notation}[theorem]{约定}%
+\newtheorem{remark}[theorem]{说明}%
+
+\theoremstyle{cdefinition}%
+\newtheorem{example}[theorem]{例}%
+\newtheorem*{Note}{注}%
+\makeatletter
+
+\renewenvironment{proof}[1][\proofname]{\par
+  \pushQED{\qed}%
+  \normalfont \topsep1\p@\relax
+  \trivlist
+  \item[\hskip\labelsep
+        \itshape
+    #1\ ]\ignorespaces% ADDED
+}{%
+  \popQED\endtrivlist\@endpefalse
+}
+\makeatother
+\renewcommand{\proofname}{{\bfseries 证明}}
+
+\newcommand{\myproof}{\noindent{$\textbf{证明}$\hspace*{0.5em}}}
+
+%\renewcommand{\theTheorem}{\arabic{Theorem}}%
+%\renewcommand{\theDefinition}{\arabic{Definition}}%
+%\renewcommand{\theLemma}{\arabic{chapter}.\arabic{Lemma}}%
+%\renewcommand{\theProposition}{\arabic{chapter}.\arabic{Proposition}}%
+%\renewcommand{\theFact}{\arabic{chapter}.\arabic{Fact}}%
+%\renewcommand{\theCorollary}{\arabic{chapter}.\arabic{Corollary}}%
+%\renewcommand{\theExample}{\arabic{chapter}.\arabic{Example}}%
+
+%%----------------------
+%% Figure in the margin:
+%%----------------------
+\newcommand{\marginfigure}[2]{%
+  \marginpar{%
+    {\pushin #1}\\*[1mm]
+    \XHI{\small\setlength{\baselineskip}{10pt}#2}%
+    }%
+  \ignorespaces%
+  }%
+%%----------------------
+%% Figure in the margin:
+%%----------------------
+\newcommand{\bmarginfigure}[2]{%
+  \marginpar{%
+    \parbox[b]{\marginparwidth}{%
+      \pushin #1\\*
+      \textsf{#2}%
+      }%
+    }%
+  \ignorespaces%
+  }%
+%%----------------------
+%% Text in the margin:           <--- GMZ 2/26/98
+%%----------------------
+\newcommand{\margintext}[1]{%
+  \marginpar{%
+\setlength{\fboxsep}{0pt}\colorbox{textboxgray}{%  <<<<< grau hinterlegt!
+    \setlength{\fboxsep}{2mm}%            <<<<<
+    \fbox{%
+     \parbox{\marginparwidth-2\fboxsep - 2\fboxrule}{\textrm{#1}}%
+    }%
+}%
+   }%
+  }%
+%%---------------------
+%% Figure in text body:
+%%---------------------
+\newcommand{\textfigure}[1]{%
+  \par\addvspace{\bigskipamount}\noindent%
+  \fbox{%
+    \parbox{\textwidth - 2\fboxsep - 2\fboxrule}{\centering #1}%
+    }%
+  \par\addvspace{\bigskipamount}%
+  \ignorespaces%
+  }%
+%%---------------------
+%% Figure in text body with comments on margin
+%%---------------------
+\newcommand{\textfigurewithtext}[2]{%
+  \par\addvspace{\bigskipamount}\noindent%
+%  \fbox{%
+%    \parbox{\textwidth - 2\fboxsep - 2\fboxrule}{\centering #1}%
+    \parbox{\textwidth}{\centering #1}%
+%    }%
+     \marginpar{%
+                \ifodd\c@page
+                    \parbox{\marginparwidth}{\small\XHI{#2}}%
+                \else
+                    \parbox{\marginparwidth}{\begin{flushright}\small\XHI{#2}\end{flushright}}%
+                \fi
+                }%
+  \par\addvspace{\bigskipamount}%
+  \ignorespaces%
+  }%
+%%---------------------
+%% Figure in text body with b-text in margin:
+%%---------------------
+\newcommand{\textfigurewithbtext}[2]{%
+  \par\addvspace{\bigskipamount}\noindent%
+  \fbox{%
+    \parbox[b]{\textwidth - 2\fboxsep - 2\fboxrule}{\centering #1}%
+    }%
+  \marginpar{%
+    \parbox[b]{\marginparwidth}{%
+      \pushin \textsf{#2}%
+      }%
+    }%
+  \par\addvspace{\bigskipamount}%
+  \ignorespaces%
+  }%
+
+
+%%----------------------
+%% Framed Theorem with Headline and proof in text body:
+%%----------------------
+%%\newcommand{\texttheoremwithproof}[3]{%
+%%  \par\addvspace{\bigskipamount}\noindent%
+%%  \begin{tabular*}{\textwidth}[c]{%
+%%      !{\vrule width
+%%        \thmrule}@{\hspace{2\thmrule}}p{\thmwidth}@{\hspace{2\thmrule}}|%
+%%      }
+%%    \hline%
+%%    \mbox{}\\%
+%%    \textsf{\bfseries\large #1}\\[2ex]%
+%%    \textit{#2}\\[2ex]%
+%%    \textbf{Proof.} #3\\%
+%%    \mbox{}\\%
+%%    \hline
+%%  \end{tabular*}
+%%  \par\addvspace{\bigskipamount}%
+%%  \ignorespaces%
+%%  }%
+%%----------------------
+%% Framed box in text body:
+%%----------------------
+\newcommand{\textbox}[2]{%
+  \par\addvspace{\bigskipamount}\noindent%
+\setlength{\fboxsep}{0pt}\colorbox{textboxgray}{%  <<<<< grau hinterlegt!
+  \begin{tabular*}{\textwidth}[c]{%
+%     !{\vrule width \boxrule}@{\hspace{2\thmrule}}p{\boxwidth}@{\hspace{2\thmrule}}|%
+      |@{\hspace{2\thmrule}}p{\boxwidth}@{\hspace{2\thmrule}}|%
+      }%
+    \hline%
+    \mbox{}\\%
+    \textsf{\bfseries\large #1}\\[-2mm]  %%          <<<<<[1ex]%
+    #2\\%
+%    \textit{#2}\\%   %<<<GMZ
+    \mbox{}\\%
+    \hline%
+  \end{tabular*}%
+}%
+  \par\addvspace{\bigskipamount}%
+  \ignorespaces%
+  }%
+\newcommand{\stextbox}[1]{%
+\renewcommand{\baselinestretch}{\factor}\selectfont
+  \par\addvspace{\bigskipamount}\noindent%
+\setlength{\fboxsep}{0pt}
+{\KAI
+  \begin{tabular*}{\textwidth}[c]{%
+%     !{\vrule width \boxrule}@{\hspace{2\thmrule}}p{\boxwidth}@{\hspace{2\thmrule}}|%
+      |@{\hspace{2\thmrule}}p{\boxwidth}@{\hspace{2\thmrule}}|%
+      }%
+    \hline%
+    #1\\%
+    \hline%
+  \end{tabular*}%
+}
+  \par\addvspace{\bigskipamount}%
+  \ignorespaces%
+\renewcommand{\baselinestretch}{\defaultfactor}\selectfont%
+}%
+
+\newcommand{\stextboxbottom}[1]{%
+\renewcommand{\baselinestretch}{\factor}\selectfont
+  \par\addvspace{\bigskipamount}\noindent%
+\setlength{\fboxsep}{0pt}
+{\KAI
+  \begin{tabular*}{\textwidth}[c]{%
+%     !{\vrule width \boxrule}@{\hspace{2\thmrule}}p{\boxwidth}@{\hspace{2\thmrule}}|%
+      |@{\hspace{2\thmrule}}p{\boxwidth}@{\hspace{2\thmrule}}|%
+      }%
+    \hline%
+    #1\\%
+    %\hline%
+  \end{tabular*}%
+}
+  \par\addvspace{\bigskipamount}%
+  \ignorespaces%
+\renewcommand{\baselinestretch}{\defaultfactor}\selectfont%
+}%
+
+\newcommand{\stextboxtop}[1]{%
+\renewcommand{\baselinestretch}{\factor}\selectfont
+  \par\addvspace{\bigskipamount}\noindent%
+\setlength{\fboxsep}{0pt}
+{\KAI
+  \begin{tabular*}{\textwidth}[c]{%
+%     !{\vrule width \boxrule}@{\hspace{2\thmrule}}p{\boxwidth}@{\hspace{2\thmrule}}|%
+      |@{\hspace{2\thmrule}}p{\boxwidth}@{\hspace{2\thmrule}}|%
+      }%
+    %\hline%
+    #1\\%
+    \hline%
+  \end{tabular*}%
+}
+  \par\addvspace{\bigskipamount}%
+  \ignorespaces%
+\renewcommand{\baselinestretch}{\defaultfactor}\selectfont%
+}%
+
+%%----------------------
+%% Framed result in text body:
+%%----------------------
+\newcommand{\textresultold}[1]{%
+  \par\addvspace{\bigskipamount}\noindent%
+\setlength{\fboxsep}{0pt}\colorbox{textboxgray}{%  <<<<< grau hinterlegt!
+\color{EWOMgray}
+     \begin{tabular*}{\textwidth}[c]{%
+      !{\vrule width
+        \thmrule}@{\hspace{2\thmrule}}p{\thmwidth}@{\hspace{2\thmrule}}|%
+      }%
+    \hline%
+    \mbox{}\\[-2mm]%
+%%%    \textbf{\large #1}\\[2ex]%
+\color{black}#1\color{EWOMgray}\\[2ex]%       <<<<<<<<<
+%%%    \textbf{Proof.} #3\\%
+%    \mbox{}\\%
+    \hline%
+  \end{tabular*}%
+}%
+  \par\addvspace{\bigskipamount}%
+  \ignorespaces%
+    \normalcolor%
+  }%
+%%----------------------
+%% Framed result in text body:
+%%----------------------
+\newcommand{\textresult}[1]{%
+\renewcommand{\baselinestretch}{\factor}\selectfont
+  \par\addvspace{\bigskipamount}\noindent%
+\setlength{\fboxsep}{0pt}\colorbox{textboxgray}{%  <<<<< grau hinterlegt!
+\color{EWOMgray}
+     \begin{tabular*}{\textwidth}[c]{%
+      !{\vrule width
+        \thmrule}@{\hspace{2\thmrule}}p{\thmwidth}@{\hspace{2\thmrule}}%
+      }%
+%    \hline%
+    \mbox{}\\[-4mm]%
+%%%    \textbf{\large #1}\\[2ex]%
+%\color{black}\it#1\color{EWOMgray}\\[2ex]%       <<<<<<<<<
+\color{black}\KAI#1\color{black}\\[2ex]%       <<<<<<<<<
+%%%    \textbf{Proof.} #3\\%
+%    \mbox{}\\%
+%    \hline%
+  \end{tabular*}%
+}%
+  \par\addvspace{\bigskipamount}%
+  \ignorespaces%
+    \normalcolor%
+\renewcommand{\baselinestretch}{\defaultfactor}\selectfont
+  }%
+%%---------------------
+%% Figure on part page:
+%%---------------------
+\newcommand{\partfigure}[1]{%
+    \fbox{%
+      \parbox[t][\partpageheight - 2\fboxsep - 2\fboxrule][c]{%
+        \textwidth - 2\fboxsep - 2\fboxrule}{%
+        \centering #1
+        }%
+      }%
+  \ignorespaces%
+  }%
+%%-----------------------------------------
+%% Entry in table of contents on part page:
+%%-----------------------------------------
+\newcommand{\parttocentry}[2]{%
+  \stepcounter{parttocchp}%
+  \par\nobreak\addvspace{\medskipamount}\noindent%
+  \textbf{\sffamily\arabic{parttocchp}}\\*#1~\enspace\textit{\pageref{#2}}%
+}%
+\newcounter{parttocchp}%
+%%--------------------------------
+%% Table of contents on part page:
+%%--------------------------------
+\newcommand{\parttoc}[1]{%
+  \marginpar{\vspace{-4mm}%
+%    \setcounter{parttocchp}{0}%
+%    \textbf{\sffamily\contentsname}%
+    #1%
+   \vspace*{\fill}%
+   %%% {\it``#2''}}%
+  }}%
+%%
+%%
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "ProofsFromTheBook_example.tex"
+%%% End:
