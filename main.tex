@@ -3,11 +3,15 @@
 %\usepackage{HEP}
 \usepackage[utf8]{inputenc}
 %\pagestyle{empty}
+\input HZcaption
+\input command
 
 % packages for page layout
-%\usepackage{geometry}
-%\geometry{a4paper,total={171.8mm,246.2mm},left=19.1mm,top=25.4mm,}
-\usepackage[body={132mm,198mm},centering]{geometry}
+\usepackage{geometry}
+\geometry{a4paper,total={171.8mm,246.2mm},left=19.1mm,top=25.4mm,}
+%\usepackage[body={132mm,198mm},centering]{geometry}
+
+\usepackage{xltxtra,fontspec,xunicode}
 
 % package for colors
 \usepackage{xcolor}
@@ -20,7 +24,7 @@
 
 % packages for graphics
 \usepackage{graphicx}
-\graphicspath{ {./images/} }
+\graphicspath{ {figs/} }
 \usepackage{wrapfig}
 \usepackage{subcaption}
 \usepackage{capt-of}

@@ -1,0 +1,54 @@
+% 用户自定义
+
+%\DeclareMathOperator{\Aut}{Aut}
+%\DeclareMathOperator{\Cov}{Cov}
+%\DeclareMathOperator{\Div}{Div}
+%\DeclareMathOperator{\Hom}{Hom}
+%\DeclareMathOperator{\Img}{Img}
+%\DeclareMathOperator{\Ker}{Ker}
+
+\newcommand{\oparpic}[1]{
+\ifthenelse{\isodd{\value{page}}}%
+{\parpic[r]{\includegraphics{#1}}} % 单页，图片放右侧
+{\parpic[l]{\includegraphics{#1}}} % 双页，图片放左侧
+}
+
+\newenvironment{Exercises}[1][99.]{
+\section*{习\quad 题}
+\markright{习\quad 题}
+\addcontentsline{toc}{section}{习题}
+\begin{small}
+\begin{list}
+{\hfill\bfseries\arabic{enumi}.}{
+\settowidth{\labelwidth}{\bfseries #1}%
+\setlength{\labelsep}{5pt}%
+\setlength{\topsep}{0bp}%
+\setlength{\partopsep}{0pt}%
+\setlength{\parskip}{0pt}%
+\setlength{\itemsep}{0bp}%
+\setlength{\leftmargin}{\labelwidth+\labelsep}%
+\usecounter{enumi}}}{\end{list}\end{small}}
+
+\def\bzx{\,--\,} % 半字线
+\def\yzx{\,—\,}  % 一字线
+\def\ezx{\,——\,} % 二字线
+
+\newenvironment{NLI}{
+\begin{adjustwidth}{}{}
+\vspace{-10mm}
+\begin{flushright}}
+{\end{flushright}
+\vspace{10mm}
+\end{adjustwidth}
+}
+
+\renewcommand{\baselinestretch}{1.28}
+\setlength{\arraycolsep}{0.5mm}
+\setlength{\parindent}{2em}
+\newcommand{\cdp}{\clearpage{\pagestyle{empty}\cleardoublepage}}
+
+%\renewcommand{\captionlabeldelim}{\quad}%去掉图注后昌号
+%\titleformat{\chapter}{\normalfont\huge\bfseries\vspace{-15mm}}{\normalfont\huge\bfseries\HZdi\HZnumber{\thechapter}\chaptername}{2ex}{}[\vspace{5ex} \titlerule]
+%\makeindex
+
+%\graphicspath{{figs/}}
