@@ -7,27 +7,34 @@ Created on Thu Dec  2 20:20:05 2021
 """
 
 in_file = __file__.replace('py', 'txt').replace('_svg', '')
-out_file = in_file.replace(r'code/txt', 'figs/svg').replace('py', 'svg')
+out_file = in_file.replace(r'txt', 'svg').replace('code', 'figs')
 in_lines = None
 
-#print(in_file)
-#print(out_file)
 color_names = dict()
 color_values = dict()
 
+out_file_obj = open(out_file, 'w')
+out_file_obj.write('<svg version="1.1" width="16cm" height="24cm"\n')
+#out_file_obj.write('    width="300" height="200"\n')
+out_file_obj.write('    xmlns="http://www.w3.org/2000/svg">\n')
+
+box_height = 1
+#box_width = 
+
 with open(in_file) as in_file_object:
-  in_lines = in_file_object.readlines()
-  for line in in_lines:
+  y = 1 
+  for line in in_file_object:
     words = line.split(' ')
-    key = words[0].strip()
-    color_names[words[0]] = words[1]
-    color_values[words[0]] = words[2].strip()
-
-print(color_names)
-
-print(len(color_names))
-with open(out_file, 'w') as out_file_object:
-  for key in color_names.keys():
-    out_file_object.write('{} {} {}\n'.format(key, color_names[key], color_values[key]))
+    out_file_obj.write('<rect x="5" y="')
+    out_file_obj.write(str(y))
+    y += 1
+    out_file_obj.write(r'cm" ')
+    out_file_obj.write('width="5cm" height="1cm" fill="')
+    out_file_obj.write(words[2].strip())
+    out_file_obj.write('" />\n')
 
 
+
+  
+out_file_obj.write(r'</svg>')
+out_file_obj.close()
