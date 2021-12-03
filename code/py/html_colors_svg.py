@@ -1,12 +1,19 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 """
-Created on Thu Dec  2 17:07:52 2021
+Created on Thu Dec  2 20:20:05 2021
 
 @author: bing
 """
-in_file = __file__.replace(r'py/process_', 'txt/').replace('py', 'txt')
-out_file = in_file.replace('_raw', '').replace('colors', 'html_colors')
+
+in_file = __file__
+out_file = __file__.replace('py', 'txt').replace('html_', '')
+out_file2 = __file__.replace(r'code/txt', 'figs/svg').replace('py', 'txt')
 in_lines = None
 
+print(in_file)
+print(out_file)
+"""
 color_names = dict()
 color_values = dict()
 
@@ -31,3 +38,5 @@ for i in range(n):
 with open(out_file, 'w') as out_file_object:
   for key in color_names.keys():
     out_file_object.write('{} {} {}\n'.format(key, color_names[key], color_values[key]))
+    
+"""
