@@ -5,36 +5,36 @@ Created on Thu Dec  2 20:20:05 2021
 
 @author: bing
 """
-
+#本程序文件路径: .../code/py/html_colors_svg.py
+#输入文件路径: .../code/txt/html_colors.txt
+#输出文件路径: .../figs/svg/html_colors.svg
 in_file = __file__.replace('py', 'txt').replace('_svg', '')
-out_file = in_file.replace(r'txt', 'svg').replace('code', 'figs')
-in_lines = None
-
-color_names = dict()
-color_values = dict()
+out_file = in_file.replace('txt', 'svg').replace('code', 'figs')
 
 out_file_obj = open(out_file, 'w')
-out_file_obj.write('<svg version="1.1" width="16cm" height="24cm"\n')
-#out_file_obj.write('    width="300" height="200"\n')
+# HTML 支持 141 种颜色，每行 3 种，47 行
+# 小矩形 5cm x 0.45cm
+# 大矩行 15cm x 21.15cm (= 3*5 x 47*0.45)
+box_height = .45  #cm
+out_file_obj.write('<svg version="1.1" width="15cm" height="21.15cm"\n')
 out_file_obj.write('    xmlns="http://www.w3.org/2000/svg">\n')
 
-box_height = 1
-#box_width = 
-
 with open(in_file) as in_file_object:
-  y = 1 
+  x, y, column = 0, 0, 0
   for line in in_file_object:
-    words = line.split(' ')
-    out_file_obj.write('<rect x="5" y="')
-    out_file_obj.write(str(y))
-    y += 1
-    out_file_obj.write(r'cm" ')
-    out_file_obj.write('width="5cm" height="1cm" fill="')
-    out_file_obj.write(words[2].strip())
+    line = line.strip()  # 去掉回车键
+    words = line.split(' ')  # 颜色列表: [英文名, 中文名, HEX 值]
+    if column > 2:
+      column, y = 0, y + box_height
+    x = 5 * column
+    out_file_obj.write('<rect x="{}cm" y="{}cm" '.format(x, y))
+    out_file_obj.write('width="5cm" height=".45cm" fill="{}"'.format(words[2]))
     out_file_obj.write('" />\n')
+    out_file_obj.write(' <text x="{}cm" y="{}cm" '.format(x+2.5, y+.35))
+    # 字体 10px
+    out_file_obj.write(' font-size="10" text-anchor="middle" fill="black">')
+    out_file_obj.write('{}</text>\n'.format(line))
+    column += 1
 
-
-
-  
-out_file_obj.write(r'</svg>')
+out_file_obj.write('</svg>')
 out_file_obj.close()
