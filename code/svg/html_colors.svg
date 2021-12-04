@@ -1,285 +1,285 @@
 <svg version="1.1" width="15cm" height="21.15cm"
     xmlns="http://www.w3.org/2000/svg">
-<rect x="0cm" y="0cm" width="5cm" height=".45cm" fill="#F0F8FF"" />
+<rect x="0cm" y="0.00cm" width="5cm" height=".45cm" fill="#F0F8FF"" />
  <text x="2.5cm" y="0.35cm"  font-size="10" text-anchor="middle" fill="black">AliceBlue 爱丽丝蓝 #F0F8FF</text>
-<rect x="5cm" y="0cm" width="5cm" height=".45cm" fill="#FAEBD7"" />
+<rect x="5cm" y="0.00cm" width="5cm" height=".45cm" fill="#FAEBD7"" />
  <text x="7.5cm" y="0.35cm"  font-size="10" text-anchor="middle" fill="black">AntiqueWhite 古董白 #FAEBD7</text>
-<rect x="10cm" y="0cm" width="5cm" height=".45cm" fill="#AFDFE4"" />
+<rect x="10cm" y="0.00cm" width="5cm" height=".45cm" fill="#AFDFE4"" />
  <text x="12.5cm" y="0.35cm"  font-size="10" text-anchor="middle" fill="black">Aqua 水色 #AFDFE4</text>
 <rect x="0cm" y="0.45cm" width="5cm" height=".45cm" fill="#7FFFD4"" />
- <text x="2.5cm" y="0.8cm"  font-size="10" text-anchor="middle" fill="black">Aquamarine 碧蓝色 #7FFFD4</text>
+ <text x="2.5cm" y="0.80cm"  font-size="10" text-anchor="middle" fill="black">Aquamarine 碧蓝色 #7FFFD4</text>
 <rect x="5cm" y="0.45cm" width="5cm" height=".45cm" fill="#F0FFFF"" />
- <text x="7.5cm" y="0.8cm"  font-size="10" text-anchor="middle" fill="black">Azure 湛蓝色 #F0FFFF</text>
+ <text x="7.5cm" y="0.80cm"  font-size="10" text-anchor="middle" fill="black">Azure 湛蓝色 #F0FFFF</text>
 <rect x="10cm" y="0.45cm" width="5cm" height=".45cm" fill="#F5F5DC"" />
- <text x="12.5cm" y="0.8cm"  font-size="10" text-anchor="middle" fill="black">Beige 米黄色 #F5F5DC</text>
-<rect x="0cm" y="0.9cm" width="5cm" height=".45cm" fill="#FFE4C4"" />
+ <text x="12.5cm" y="0.80cm"  font-size="10" text-anchor="middle" fill="black">Beige 米黄色 #F5F5DC</text>
+<rect x="0cm" y="0.90cm" width="5cm" height=".45cm" fill="#FFE4C4"" />
  <text x="2.5cm" y="1.25cm"  font-size="10" text-anchor="middle" fill="black">Bisque 陶坯黄 #FFE4C4</text>
-<rect x="5cm" y="0.9cm" width="5cm" height=".45cm" fill="#000000"" />
+<rect x="5cm" y="0.90cm" width="5cm" height=".45cm" fill="#000000"" />
  <text x="7.5cm" y="1.25cm"  font-size="10" text-anchor="middle" fill="black">Black 黑色 #000000</text>
-<rect x="10cm" y="0.9cm" width="5cm" height=".45cm" fill="#FFEBCD"" />
+<rect x="10cm" y="0.90cm" width="5cm" height=".45cm" fill="#FFEBCD"" />
  <text x="12.5cm" y="1.25cm"  font-size="10" text-anchor="middle" fill="black">BlanchedAlmond 杏仁白 #FFEBCD</text>
 <rect x="0cm" y="1.35cm" width="5cm" height=".45cm" fill="#0000FF"" />
- <text x="2.5cm" y="1.7000000000000002cm"  font-size="10" text-anchor="middle" fill="black">Blue 蓝色 #0000FF</text>
+ <text x="2.5cm" y="1.70cm"  font-size="10" text-anchor="middle" fill="black">Blue 蓝色 #0000FF</text>
 <rect x="5cm" y="1.35cm" width="5cm" height=".45cm" fill="#8A2BE2"" />
- <text x="7.5cm" y="1.7000000000000002cm"  font-size="10" text-anchor="middle" fill="black">BlueViolet 蓝紫 #8A2BE2</text>
+ <text x="7.5cm" y="1.70cm"  font-size="10" text-anchor="middle" fill="black">BlueViolet 蓝紫 #8A2BE2</text>
 <rect x="10cm" y="1.35cm" width="5cm" height=".45cm" fill="#A52A2A"" />
- <text x="12.5cm" y="1.7000000000000002cm"  font-size="10" text-anchor="middle" fill="black">Brown 褐色 #A52A2A</text>
-<rect x="0cm" y="1.8cm" width="5cm" height=".45cm" fill="#DEB887"" />
+ <text x="12.5cm" y="1.70cm"  font-size="10" text-anchor="middle" fill="black">Brown 褐色 #A52A2A</text>
+<rect x="0cm" y="1.80cm" width="5cm" height=".45cm" fill="#DEB887"" />
  <text x="2.5cm" y="2.15cm"  font-size="10" text-anchor="middle" fill="black">BurlyWood 硬木色 #DEB887</text>
-<rect x="5cm" y="1.8cm" width="5cm" height=".45cm" fill="#5F9EA0"" />
+<rect x="5cm" y="1.80cm" width="5cm" height=".45cm" fill="#5F9EA0"" />
  <text x="7.5cm" y="2.15cm"  font-size="10" text-anchor="middle" fill="black">CadetBlue 军服蓝 #5F9EA0</text>
-<rect x="10cm" y="1.8cm" width="5cm" height=".45cm" fill="#7FFF00"" />
+<rect x="10cm" y="1.80cm" width="5cm" height=".45cm" fill="#7FFF00"" />
  <text x="12.5cm" y="2.15cm"  font-size="10" text-anchor="middle" fill="black">Chartreuse 查特酒绿 #7FFF00</text>
 <rect x="0cm" y="2.25cm" width="5cm" height=".45cm" fill="#D2691E"" />
- <text x="2.5cm" y="2.6cm"  font-size="10" text-anchor="middle" fill="black">Chocolate 巧克力色 #D2691E</text>
+ <text x="2.5cm" y="2.60cm"  font-size="10" text-anchor="middle" fill="black">Chocolate 巧克力色 #D2691E</text>
 <rect x="5cm" y="2.25cm" width="5cm" height=".45cm" fill="#FF7F50"" />
- <text x="7.5cm" y="2.6cm"  font-size="10" text-anchor="middle" fill="black">Coral 珊瑚红 #FF7F50</text>
+ <text x="7.5cm" y="2.60cm"  font-size="10" text-anchor="middle" fill="black">Coral 珊瑚红 #FF7F50</text>
 <rect x="10cm" y="2.25cm" width="5cm" height=".45cm" fill="#6495ED"" />
- <text x="12.5cm" y="2.6cm"  font-size="10" text-anchor="middle" fill="black">CornflowerBlue 矢车菊蓝 #6495ED</text>
-<rect x="0cm" y="2.7cm" width="5cm" height=".45cm" fill="#FFF8DC"" />
- <text x="2.5cm" y="3.0500000000000003cm"  font-size="10" text-anchor="middle" fill="black">Cornsilk 玉米丝色 #FFF8DC</text>
-<rect x="5cm" y="2.7cm" width="5cm" height=".45cm" fill="#DC143C"" />
- <text x="7.5cm" y="3.0500000000000003cm"  font-size="10" text-anchor="middle" fill="black">Crimson 绯红 #DC143C</text>
-<rect x="10cm" y="2.7cm" width="5cm" height=".45cm" fill="#00FFFF"" />
- <text x="12.5cm" y="3.0500000000000003cm"  font-size="10" text-anchor="middle" fill="black">Cyan 青色 #00FFFF</text>
-<rect x="0cm" y="3.1500000000000004cm" width="5cm" height=".45cm" fill="#00008B"" />
- <text x="2.5cm" y="3.5000000000000004cm"  font-size="10" text-anchor="middle" fill="black">DarkBlue 暗蓝 #00008B</text>
-<rect x="5cm" y="3.1500000000000004cm" width="5cm" height=".45cm" fill="#008B8B"" />
- <text x="7.5cm" y="3.5000000000000004cm"  font-size="10" text-anchor="middle" fill="black">DarkCyan 暗青 #008B8B</text>
-<rect x="10cm" y="3.1500000000000004cm" width="5cm" height=".45cm" fill="#B8860B"" />
- <text x="12.5cm" y="3.5000000000000004cm"  font-size="10" text-anchor="middle" fill="black">DarkGoldenRod 暗金菊色 #B8860B</text>
-<rect x="0cm" y="3.6000000000000005cm" width="5cm" height=".45cm" fill="#A9A9A9"" />
- <text x="2.5cm" y="3.9500000000000006cm"  font-size="10" text-anchor="middle" fill="black">DarkGray 暗灰 #A9A9A9</text>
-<rect x="5cm" y="3.6000000000000005cm" width="5cm" height=".45cm" fill="#006400"" />
- <text x="7.5cm" y="3.9500000000000006cm"  font-size="10" text-anchor="middle" fill="black">DarkGreen 暗绿 #006400</text>
-<rect x="10cm" y="3.6000000000000005cm" width="5cm" height=".45cm" fill="#BDB76B"" />
- <text x="12.5cm" y="3.9500000000000006cm"  font-size="10" text-anchor="middle" fill="black">DarkKhaki 暗卡其色 #BDB76B</text>
-<rect x="0cm" y="4.050000000000001cm" width="5cm" height=".45cm" fill="#8B008B"" />
- <text x="2.5cm" y="4.4cm"  font-size="10" text-anchor="middle" fill="black">DarkMagenta 暗洋红 #8B008B</text>
-<rect x="5cm" y="4.050000000000001cm" width="5cm" height=".45cm" fill="#556B2F"" />
- <text x="7.5cm" y="4.4cm"  font-size="10" text-anchor="middle" fill="black">DarkOliveGreen 暗橄榄绿 #556B2F</text>
-<rect x="10cm" y="4.050000000000001cm" width="5cm" height=".45cm" fill="#FF8C00"" />
- <text x="12.5cm" y="4.4cm"  font-size="10" text-anchor="middle" fill="black">Darkorange 暗橙 #FF8C00</text>
-<rect x="0cm" y="4.500000000000001cm" width="5cm" height=".45cm" fill="#9932CC"" />
- <text x="2.5cm" y="4.8500000000000005cm"  font-size="10" text-anchor="middle" fill="black">DarkOrchid 暗兰紫 #9932CC</text>
-<rect x="5cm" y="4.500000000000001cm" width="5cm" height=".45cm" fill="#8B0000"" />
- <text x="7.5cm" y="4.8500000000000005cm"  font-size="10" text-anchor="middle" fill="black">DarkRed 暗红 #8B0000</text>
-<rect x="10cm" y="4.500000000000001cm" width="5cm" height=".45cm" fill="#E9967A"" />
- <text x="12.5cm" y="4.8500000000000005cm"  font-size="10" text-anchor="middle" fill="black">DarkSalmon 暗鲑红 #E9967A</text>
-<rect x="0cm" y="4.950000000000001cm" width="5cm" height=".45cm" fill="#8FBC8F"" />
- <text x="2.5cm" y="5.300000000000001cm"  font-size="10" text-anchor="middle" fill="black">DarkSeaGreen 暗海绿 #8FBC8F</text>
-<rect x="5cm" y="4.950000000000001cm" width="5cm" height=".45cm" fill="#483D8B"" />
- <text x="7.5cm" y="5.300000000000001cm"  font-size="10" text-anchor="middle" fill="black">DarkSlateBlue 暗岩蓝 #483D8B</text>
-<rect x="10cm" y="4.950000000000001cm" width="5cm" height=".45cm" fill="#2F4F4F"" />
- <text x="12.5cm" y="5.300000000000001cm"  font-size="10" text-anchor="middle" fill="black">DarkSlateGray 暗岩灰 #2F4F4F</text>
-<rect x="0cm" y="5.400000000000001cm" width="5cm" height=".45cm" fill="#00CED1"" />
- <text x="2.5cm" y="5.750000000000001cm"  font-size="10" text-anchor="middle" fill="black">DarkTurquoise 暗绿松石色 #00CED1</text>
-<rect x="5cm" y="5.400000000000001cm" width="5cm" height=".45cm" fill="#9400D3"" />
- <text x="7.5cm" y="5.750000000000001cm"  font-size="10" text-anchor="middle" fill="black">DarkViolet 暗紫 #9400D3</text>
-<rect x="10cm" y="5.400000000000001cm" width="5cm" height=".45cm" fill="#FF1493"" />
- <text x="12.5cm" y="5.750000000000001cm"  font-size="10" text-anchor="middle" fill="black">DeepPink 深粉红 #FF1493</text>
-<rect x="0cm" y="5.850000000000001cm" width="5cm" height=".45cm" fill="#00BFFF"" />
- <text x="2.5cm" y="6.200000000000001cm"  font-size="10" text-anchor="middle" fill="black">DeepSkyBlue 深天蓝 #00BFFF</text>
-<rect x="5cm" y="5.850000000000001cm" width="5cm" height=".45cm" fill="#696969"" />
- <text x="7.5cm" y="6.200000000000001cm"  font-size="10" text-anchor="middle" fill="black">DimGray 昏灰 #696969</text>
-<rect x="10cm" y="5.850000000000001cm" width="5cm" height=".45cm" fill="#1E90FF"" />
- <text x="12.5cm" y="6.200000000000001cm"  font-size="10" text-anchor="middle" fill="black">DodgerBlue 道奇蓝 #1E90FF</text>
-<rect x="0cm" y="6.300000000000002cm" width="5cm" height=".45cm" fill="#B22222"" />
- <text x="2.5cm" y="6.650000000000001cm"  font-size="10" text-anchor="middle" fill="black">FireBrick 耐火砖红 #B22222</text>
-<rect x="5cm" y="6.300000000000002cm" width="5cm" height=".45cm" fill="#FFFAF0"" />
- <text x="7.5cm" y="6.650000000000001cm"  font-size="10" text-anchor="middle" fill="black">FloralWhite 花卉白 #FFFAF0</text>
-<rect x="10cm" y="6.300000000000002cm" width="5cm" height=".45cm" fill="#228B22"" />
- <text x="12.5cm" y="6.650000000000001cm"  font-size="10" text-anchor="middle" fill="black">ForestGreen 森林绿 #228B22</text>
-<rect x="0cm" y="6.750000000000002cm" width="5cm" height=".45cm" fill="#F400A1"" />
- <text x="2.5cm" y="7.100000000000001cm"  font-size="10" text-anchor="middle" fill="black">Fuchsia 品红 #F400A1</text>
-<rect x="5cm" y="6.750000000000002cm" width="5cm" height=".45cm" fill="#DCDCDC"" />
- <text x="7.5cm" y="7.100000000000001cm"  font-size="10" text-anchor="middle" fill="black">Gainsboro 庚斯博罗灰 #DCDCDC</text>
-<rect x="10cm" y="6.750000000000002cm" width="5cm" height=".45cm" fill="#F8F8FF"" />
- <text x="12.5cm" y="7.100000000000001cm"  font-size="10" text-anchor="middle" fill="black">GhostWhite 幽灵白 #F8F8FF</text>
-<rect x="0cm" y="7.200000000000002cm" width="5cm" height=".45cm" fill="#FFD700"" />
- <text x="2.5cm" y="7.550000000000002cm"  font-size="10" text-anchor="middle" fill="black">Golden 金色 #FFD700</text>
-<rect x="5cm" y="7.200000000000002cm" width="5cm" height=".45cm" fill="#DAA520"" />
- <text x="7.5cm" y="7.550000000000002cm"  font-size="10" text-anchor="middle" fill="black">GoldenRod 金菊色 #DAA520</text>
-<rect x="10cm" y="7.200000000000002cm" width="5cm" height=".45cm" fill="#808080"" />
- <text x="12.5cm" y="7.550000000000002cm"  font-size="10" text-anchor="middle" fill="black">Gray 灰色 #808080</text>
-<rect x="0cm" y="7.650000000000002cm" width="5cm" height=".45cm" fill="#008000"" />
- <text x="2.5cm" y="8.000000000000002cm"  font-size="10" text-anchor="middle" fill="black">Green 绿色 #008000</text>
-<rect x="5cm" y="7.650000000000002cm" width="5cm" height=".45cm" fill="#ADFF2F"" />
- <text x="7.5cm" y="8.000000000000002cm"  font-size="10" text-anchor="middle" fill="black">GreenYellow 绿黄 #ADFF2F</text>
-<rect x="10cm" y="7.650000000000002cm" width="5cm" height=".45cm" fill="#F0FFF0"" />
- <text x="12.5cm" y="8.000000000000002cm"  font-size="10" text-anchor="middle" fill="black">HoneyDew 蜜瓜绿 #F0FFF0</text>
-<rect x="0cm" y="8.100000000000001cm" width="5cm" height=".45cm" fill="#FF69B4"" />
- <text x="2.5cm" y="8.450000000000001cm"  font-size="10" text-anchor="middle" fill="black">HotPink 暖粉红 #FF69B4</text>
-<rect x="5cm" y="8.100000000000001cm" width="5cm" height=".45cm" fill="#CD5C5C"" />
- <text x="7.5cm" y="8.450000000000001cm"  font-size="10" text-anchor="middle" fill="black">IndianRed 印度红 #CD5C5C</text>
-<rect x="10cm" y="8.100000000000001cm" width="5cm" height=".45cm" fill="#4B0082"" />
- <text x="12.5cm" y="8.450000000000001cm"  font-size="10" text-anchor="middle" fill="black">Indigo 靛色 #4B0082</text>
+ <text x="12.5cm" y="2.60cm"  font-size="10" text-anchor="middle" fill="black">CornflowerBlue 矢车菊蓝 #6495ED</text>
+<rect x="0cm" y="2.70cm" width="5cm" height=".45cm" fill="#FFF8DC"" />
+ <text x="2.5cm" y="3.05cm"  font-size="10" text-anchor="middle" fill="black">Cornsilk 玉米丝色 #FFF8DC</text>
+<rect x="5cm" y="2.70cm" width="5cm" height=".45cm" fill="#DC143C"" />
+ <text x="7.5cm" y="3.05cm"  font-size="10" text-anchor="middle" fill="black">Crimson 绯红 #DC143C</text>
+<rect x="10cm" y="2.70cm" width="5cm" height=".45cm" fill="#00FFFF"" />
+ <text x="12.5cm" y="3.05cm"  font-size="10" text-anchor="middle" fill="black">Cyan 青色 #00FFFF</text>
+<rect x="0cm" y="3.15cm" width="5cm" height=".45cm" fill="#00008B"" />
+ <text x="2.5cm" y="3.50cm"  font-size="10" text-anchor="middle" fill="black">DarkBlue 暗蓝 #00008B</text>
+<rect x="5cm" y="3.15cm" width="5cm" height=".45cm" fill="#008B8B"" />
+ <text x="7.5cm" y="3.50cm"  font-size="10" text-anchor="middle" fill="black">DarkCyan 暗青 #008B8B</text>
+<rect x="10cm" y="3.15cm" width="5cm" height=".45cm" fill="#B8860B"" />
+ <text x="12.5cm" y="3.50cm"  font-size="10" text-anchor="middle" fill="black">DarkGoldenRod 暗金菊色 #B8860B</text>
+<rect x="0cm" y="3.60cm" width="5cm" height=".45cm" fill="#A9A9A9"" />
+ <text x="2.5cm" y="3.95cm"  font-size="10" text-anchor="middle" fill="black">DarkGray 暗灰 #A9A9A9</text>
+<rect x="5cm" y="3.60cm" width="5cm" height=".45cm" fill="#006400"" />
+ <text x="7.5cm" y="3.95cm"  font-size="10" text-anchor="middle" fill="black">DarkGreen 暗绿 #006400</text>
+<rect x="10cm" y="3.60cm" width="5cm" height=".45cm" fill="#BDB76B"" />
+ <text x="12.5cm" y="3.95cm"  font-size="10" text-anchor="middle" fill="black">DarkKhaki 暗卡其色 #BDB76B</text>
+<rect x="0cm" y="4.05cm" width="5cm" height=".45cm" fill="#8B008B"" />
+ <text x="2.5cm" y="4.40cm"  font-size="10" text-anchor="middle" fill="black">DarkMagenta 暗洋红 #8B008B</text>
+<rect x="5cm" y="4.05cm" width="5cm" height=".45cm" fill="#556B2F"" />
+ <text x="7.5cm" y="4.40cm"  font-size="10" text-anchor="middle" fill="black">DarkOliveGreen 暗橄榄绿 #556B2F</text>
+<rect x="10cm" y="4.05cm" width="5cm" height=".45cm" fill="#FF8C00"" />
+ <text x="12.5cm" y="4.40cm"  font-size="10" text-anchor="middle" fill="black">Darkorange 暗橙 #FF8C00</text>
+<rect x="0cm" y="4.50cm" width="5cm" height=".45cm" fill="#9932CC"" />
+ <text x="2.5cm" y="4.85cm"  font-size="10" text-anchor="middle" fill="black">DarkOrchid 暗兰紫 #9932CC</text>
+<rect x="5cm" y="4.50cm" width="5cm" height=".45cm" fill="#8B0000"" />
+ <text x="7.5cm" y="4.85cm"  font-size="10" text-anchor="middle" fill="black">DarkRed 暗红 #8B0000</text>
+<rect x="10cm" y="4.50cm" width="5cm" height=".45cm" fill="#E9967A"" />
+ <text x="12.5cm" y="4.85cm"  font-size="10" text-anchor="middle" fill="black">DarkSalmon 暗鲑红 #E9967A</text>
+<rect x="0cm" y="4.95cm" width="5cm" height=".45cm" fill="#8FBC8F"" />
+ <text x="2.5cm" y="5.30cm"  font-size="10" text-anchor="middle" fill="black">DarkSeaGreen 暗海绿 #8FBC8F</text>
+<rect x="5cm" y="4.95cm" width="5cm" height=".45cm" fill="#483D8B"" />
+ <text x="7.5cm" y="5.30cm"  font-size="10" text-anchor="middle" fill="black">DarkSlateBlue 暗岩蓝 #483D8B</text>
+<rect x="10cm" y="4.95cm" width="5cm" height=".45cm" fill="#2F4F4F"" />
+ <text x="12.5cm" y="5.30cm"  font-size="10" text-anchor="middle" fill="black">DarkSlateGray 暗岩灰 #2F4F4F</text>
+<rect x="0cm" y="5.40cm" width="5cm" height=".45cm" fill="#00CED1"" />
+ <text x="2.5cm" y="5.75cm"  font-size="10" text-anchor="middle" fill="black">DarkTurquoise 暗绿松石色 #00CED1</text>
+<rect x="5cm" y="5.40cm" width="5cm" height=".45cm" fill="#9400D3"" />
+ <text x="7.5cm" y="5.75cm"  font-size="10" text-anchor="middle" fill="black">DarkViolet 暗紫 #9400D3</text>
+<rect x="10cm" y="5.40cm" width="5cm" height=".45cm" fill="#FF1493"" />
+ <text x="12.5cm" y="5.75cm"  font-size="10" text-anchor="middle" fill="black">DeepPink 深粉红 #FF1493</text>
+<rect x="0cm" y="5.85cm" width="5cm" height=".45cm" fill="#00BFFF"" />
+ <text x="2.5cm" y="6.20cm"  font-size="10" text-anchor="middle" fill="black">DeepSkyBlue 深天蓝 #00BFFF</text>
+<rect x="5cm" y="5.85cm" width="5cm" height=".45cm" fill="#696969"" />
+ <text x="7.5cm" y="6.20cm"  font-size="10" text-anchor="middle" fill="black">DimGray 昏灰 #696969</text>
+<rect x="10cm" y="5.85cm" width="5cm" height=".45cm" fill="#1E90FF"" />
+ <text x="12.5cm" y="6.20cm"  font-size="10" text-anchor="middle" fill="black">DodgerBlue 道奇蓝 #1E90FF</text>
+<rect x="0cm" y="6.30cm" width="5cm" height=".45cm" fill="#B22222"" />
+ <text x="2.5cm" y="6.65cm"  font-size="10" text-anchor="middle" fill="black">FireBrick 耐火砖红 #B22222</text>
+<rect x="5cm" y="6.30cm" width="5cm" height=".45cm" fill="#FFFAF0"" />
+ <text x="7.5cm" y="6.65cm"  font-size="10" text-anchor="middle" fill="black">FloralWhite 花卉白 #FFFAF0</text>
+<rect x="10cm" y="6.30cm" width="5cm" height=".45cm" fill="#228B22"" />
+ <text x="12.5cm" y="6.65cm"  font-size="10" text-anchor="middle" fill="black">ForestGreen 森林绿 #228B22</text>
+<rect x="0cm" y="6.75cm" width="5cm" height=".45cm" fill="#F400A1"" />
+ <text x="2.5cm" y="7.10cm"  font-size="10" text-anchor="middle" fill="black">Fuchsia 品红 #F400A1</text>
+<rect x="5cm" y="6.75cm" width="5cm" height=".45cm" fill="#DCDCDC"" />
+ <text x="7.5cm" y="7.10cm"  font-size="10" text-anchor="middle" fill="black">Gainsboro 庚斯博罗灰 #DCDCDC</text>
+<rect x="10cm" y="6.75cm" width="5cm" height=".45cm" fill="#F8F8FF"" />
+ <text x="12.5cm" y="7.10cm"  font-size="10" text-anchor="middle" fill="black">GhostWhite 幽灵白 #F8F8FF</text>
+<rect x="0cm" y="7.20cm" width="5cm" height=".45cm" fill="#FFD700"" />
+ <text x="2.5cm" y="7.55cm"  font-size="10" text-anchor="middle" fill="black">Golden 金色 #FFD700</text>
+<rect x="5cm" y="7.20cm" width="5cm" height=".45cm" fill="#DAA520"" />
+ <text x="7.5cm" y="7.55cm"  font-size="10" text-anchor="middle" fill="black">GoldenRod 金菊色 #DAA520</text>
+<rect x="10cm" y="7.20cm" width="5cm" height=".45cm" fill="#808080"" />
+ <text x="12.5cm" y="7.55cm"  font-size="10" text-anchor="middle" fill="black">Gray 灰色 #808080</text>
+<rect x="0cm" y="7.65cm" width="5cm" height=".45cm" fill="#008000"" />
+ <text x="2.5cm" y="8.00cm"  font-size="10" text-anchor="middle" fill="black">Green 绿色 #008000</text>
+<rect x="5cm" y="7.65cm" width="5cm" height=".45cm" fill="#ADFF2F"" />
+ <text x="7.5cm" y="8.00cm"  font-size="10" text-anchor="middle" fill="black">GreenYellow 绿黄 #ADFF2F</text>
+<rect x="10cm" y="7.65cm" width="5cm" height=".45cm" fill="#F0FFF0"" />
+ <text x="12.5cm" y="8.00cm"  font-size="10" text-anchor="middle" fill="black">HoneyDew 蜜瓜绿 #F0FFF0</text>
+<rect x="0cm" y="8.10cm" width="5cm" height=".45cm" fill="#FF69B4"" />
+ <text x="2.5cm" y="8.45cm"  font-size="10" text-anchor="middle" fill="black">HotPink 暖粉红 #FF69B4</text>
+<rect x="5cm" y="8.10cm" width="5cm" height=".45cm" fill="#CD5C5C"" />
+ <text x="7.5cm" y="8.45cm"  font-size="10" text-anchor="middle" fill="black">IndianRed 印度红 #CD5C5C</text>
+<rect x="10cm" y="8.10cm" width="5cm" height=".45cm" fill="#4B0082"" />
+ <text x="12.5cm" y="8.45cm"  font-size="10" text-anchor="middle" fill="black">Indigo 靛色 #4B0082</text>
 <rect x="0cm" y="8.55cm" width="5cm" height=".45cm" fill="#FFFFF0"" />
- <text x="2.5cm" y="8.9cm"  font-size="10" text-anchor="middle" fill="black">Ivory 象牙色 #FFFFF0</text>
+ <text x="2.5cm" y="8.90cm"  font-size="10" text-anchor="middle" fill="black">Ivory 象牙色 #FFFFF0</text>
 <rect x="5cm" y="8.55cm" width="5cm" height=".45cm" fill="#F0E68C"" />
- <text x="7.5cm" y="8.9cm"  font-size="10" text-anchor="middle" fill="black">Khaki 卡其色 #F0E68C</text>
+ <text x="7.5cm" y="8.90cm"  font-size="10" text-anchor="middle" fill="black">Khaki 卡其色 #F0E68C</text>
 <rect x="10cm" y="8.55cm" width="5cm" height=".45cm" fill="#E6E6FA"" />
- <text x="12.5cm" y="8.9cm"  font-size="10" text-anchor="middle" fill="black">Lavender 薰衣草紫 #E6E6FA</text>
-<rect x="0cm" y="9.0cm" width="5cm" height=".45cm" fill="#FFF0F5"" />
+ <text x="12.5cm" y="8.90cm"  font-size="10" text-anchor="middle" fill="black">Lavender 薰衣草紫 #E6E6FA</text>
+<rect x="0cm" y="9.00cm" width="5cm" height=".45cm" fill="#FFF0F5"" />
  <text x="2.5cm" y="9.35cm"  font-size="10" text-anchor="middle" fill="black">LavenderBlush 薰衣草紫红 #FFF0F5</text>
-<rect x="5cm" y="9.0cm" width="5cm" height=".45cm" fill="#7CFC00"" />
+<rect x="5cm" y="9.00cm" width="5cm" height=".45cm" fill="#7CFC00"" />
  <text x="7.5cm" y="9.35cm"  font-size="10" text-anchor="middle" fill="black">LawnGreen 草坪绿 #7CFC00</text>
-<rect x="10cm" y="9.0cm" width="5cm" height=".45cm" fill="#FFFACD"" />
+<rect x="10cm" y="9.00cm" width="5cm" height=".45cm" fill="#FFFACD"" />
  <text x="12.5cm" y="9.35cm"  font-size="10" text-anchor="middle" fill="black">LemonChiffon 柠檬绸色 #FFFACD</text>
 <rect x="0cm" y="9.45cm" width="5cm" height=".45cm" fill="#ADD8E6"" />
- <text x="2.5cm" y="9.799999999999999cm"  font-size="10" text-anchor="middle" fill="black">LightBlue 亮蓝 #ADD8E6</text>
+ <text x="2.5cm" y="9.80cm"  font-size="10" text-anchor="middle" fill="black">LightBlue 亮蓝 #ADD8E6</text>
 <rect x="5cm" y="9.45cm" width="5cm" height=".45cm" fill="#F08080"" />
- <text x="7.5cm" y="9.799999999999999cm"  font-size="10" text-anchor="middle" fill="black">LightCoral 亮珊瑚色 #F08080</text>
+ <text x="7.5cm" y="9.80cm"  font-size="10" text-anchor="middle" fill="black">LightCoral 亮珊瑚色 #F08080</text>
 <rect x="10cm" y="9.45cm" width="5cm" height=".45cm" fill="#E0FFFF"" />
- <text x="12.5cm" y="9.799999999999999cm"  font-size="10" text-anchor="middle" fill="black">LightCyan 亮青色 #E0FFFF</text>
-<rect x="0cm" y="9.899999999999999cm" width="5cm" height=".45cm" fill="#FAFAD2"" />
- <text x="2.5cm" y="10.249999999999998cm"  font-size="10" text-anchor="middle" fill="black">LightGoldenRodYellow 亮秋黄 #FAFAD2</text>
-<rect x="5cm" y="9.899999999999999cm" width="5cm" height=".45cm" fill="#D3D3D3"" />
- <text x="7.5cm" y="10.249999999999998cm"  font-size="10" text-anchor="middle" fill="black">LightGrey 亮灰色 #D3D3D3</text>
-<rect x="10cm" y="9.899999999999999cm" width="5cm" height=".45cm" fill="#90EE90"" />
- <text x="12.5cm" y="10.249999999999998cm"  font-size="10" text-anchor="middle" fill="black">LightGreen 亮绿 #90EE90</text>
-<rect x="0cm" y="10.349999999999998cm" width="5cm" height=".45cm" fill="#FFB6C1"" />
- <text x="2.5cm" y="10.699999999999998cm"  font-size="10" text-anchor="middle" fill="black">LightPink 浅粉红 #FFB6C1</text>
-<rect x="5cm" y="10.349999999999998cm" width="5cm" height=".45cm" fill="#FFA07A"" />
- <text x="7.5cm" y="10.699999999999998cm"  font-size="10" text-anchor="middle" fill="black">LightSalmon 浅鲑红 #FFA07A</text>
-<rect x="10cm" y="10.349999999999998cm" width="5cm" height=".45cm" fill="#20B2AA"" />
- <text x="12.5cm" y="10.699999999999998cm"  font-size="10" text-anchor="middle" fill="black">LightSeaGreen 亮海绿 #20B2AA</text>
-<rect x="0cm" y="10.799999999999997cm" width="5cm" height=".45cm" fill="#87CEFA"" />
- <text x="2.5cm" y="11.149999999999997cm"  font-size="10" text-anchor="middle" fill="black">LightSkyBlue 亮天蓝 #87CEFA</text>
-<rect x="5cm" y="10.799999999999997cm" width="5cm" height=".45cm" fill="#778899"" />
- <text x="7.5cm" y="11.149999999999997cm"  font-size="10" text-anchor="middle" fill="black">LightSlateGray 淡岩灰 #778899</text>
-<rect x="10cm" y="10.799999999999997cm" width="5cm" height=".45cm" fill="#B0C4DE"" />
- <text x="12.5cm" y="11.149999999999997cm"  font-size="10" text-anchor="middle" fill="black">LightSteelBlue 亮钢蓝 #B0C4DE</text>
-<rect x="0cm" y="11.249999999999996cm" width="5cm" height=".45cm" fill="#FFFFE0"" />
- <text x="2.5cm" y="11.599999999999996cm"  font-size="10" text-anchor="middle" fill="black">LightYellow 亮黄 #FFFFE0</text>
-<rect x="5cm" y="11.249999999999996cm" width="5cm" height=".45cm" fill="#00FF00"" />
- <text x="7.5cm" y="11.599999999999996cm"  font-size="10" text-anchor="middle" fill="black">Lime 鲜绿色 #00FF00</text>
-<rect x="10cm" y="11.249999999999996cm" width="5cm" height=".45cm" fill="#32CD32"" />
- <text x="12.5cm" y="11.599999999999996cm"  font-size="10" text-anchor="middle" fill="black">LimeGreen 酸橙绿 #32CD32</text>
-<rect x="0cm" y="11.699999999999996cm" width="5cm" height=".45cm" fill="#FAF0E6"" />
- <text x="2.5cm" y="12.049999999999995cm"  font-size="10" text-anchor="middle" fill="black">Linen 亚麻色 #FAF0E6</text>
-<rect x="5cm" y="11.699999999999996cm" width="5cm" height=".45cm" fill="#FF00FF"" />
- <text x="7.5cm" y="12.049999999999995cm"  font-size="10" text-anchor="middle" fill="black">Magenta 洋红 #FF00FF</text>
-<rect x="10cm" y="11.699999999999996cm" width="5cm" height=".45cm" fill="#800000"" />
- <text x="12.5cm" y="12.049999999999995cm"  font-size="10" text-anchor="middle" fill="black">Maroon 栗色 #800000</text>
-<rect x="0cm" y="12.149999999999995cm" width="5cm" height=".45cm" fill="#66CDAA"" />
- <text x="2.5cm" y="12.499999999999995cm"  font-size="10" text-anchor="middle" fill="black">MediumAquaMarine 中碧 #66CDAA</text>
-<rect x="5cm" y="12.149999999999995cm" width="5cm" height=".45cm" fill="#0000CD"" />
- <text x="7.5cm" y="12.499999999999995cm"  font-size="10" text-anchor="middle" fill="black">MediumBlue 中蓝色 #0000CD</text>
-<rect x="10cm" y="12.149999999999995cm" width="5cm" height=".45cm" fill="#BA55D3"" />
- <text x="12.5cm" y="12.499999999999995cm"  font-size="10" text-anchor="middle" fill="black">MediumOrchid 中兰紫 #BA55D3</text>
-<rect x="0cm" y="12.599999999999994cm" width="5cm" height=".45cm" fill="#9370D8"" />
- <text x="2.5cm" y="12.949999999999994cm"  font-size="10" text-anchor="middle" fill="black">MediumPurple 中紫红 #9370D8</text>
-<rect x="5cm" y="12.599999999999994cm" width="5cm" height=".45cm" fill="#3CB371"" />
- <text x="7.5cm" y="12.949999999999994cm"  font-size="10" text-anchor="middle" fill="black">MediumSeaGreen 中海绿 #3CB371</text>
-<rect x="10cm" y="12.599999999999994cm" width="5cm" height=".45cm" fill="#7B68EE"" />
- <text x="12.5cm" y="12.949999999999994cm"  font-size="10" text-anchor="middle" fill="black">MediumSlateBlue 中岩蓝 #7B68EE</text>
-<rect x="0cm" y="13.049999999999994cm" width="5cm" height=".45cm" fill="#00FA9A"" />
- <text x="2.5cm" y="13.399999999999993cm"  font-size="10" text-anchor="middle" fill="black">MediumSpringGreen 中春绿 #00FA9A</text>
-<rect x="5cm" y="13.049999999999994cm" width="5cm" height=".45cm" fill="#48D1CC"" />
- <text x="7.5cm" y="13.399999999999993cm"  font-size="10" text-anchor="middle" fill="black">MediumTurquoise 中绿松 #48D1CC</text>
-<rect x="10cm" y="13.049999999999994cm" width="5cm" height=".45cm" fill="#C71585"" />
- <text x="12.5cm" y="13.399999999999993cm"  font-size="10" text-anchor="middle" fill="black">MediumVioletRed 中紫罗兰色 #C71585</text>
-<rect x="0cm" y="13.499999999999993cm" width="5cm" height=".45cm" fill="#191970"" />
- <text x="2.5cm" y="13.849999999999993cm"  font-size="10" text-anchor="middle" fill="black">MidnightBlue 午夜蓝 #191970</text>
-<rect x="5cm" y="13.499999999999993cm" width="5cm" height=".45cm" fill="#F5FFFA"" />
- <text x="7.5cm" y="13.849999999999993cm"  font-size="10" text-anchor="middle" fill="black">MintCream 薄荷奶油色 #F5FFFA</text>
-<rect x="10cm" y="13.499999999999993cm" width="5cm" height=".45cm" fill="#FFE4E1"" />
- <text x="12.5cm" y="13.849999999999993cm"  font-size="10" text-anchor="middle" fill="black">MistyRose 雾玫瑰色 #FFE4E1</text>
-<rect x="0cm" y="13.949999999999992cm" width="5cm" height=".45cm" fill="#FFE4B5"" />
- <text x="2.5cm" y="14.299999999999992cm"  font-size="10" text-anchor="middle" fill="black">Moccasin 鹿皮鞋色 #FFE4B5</text>
-<rect x="5cm" y="13.949999999999992cm" width="5cm" height=".45cm" fill="#FFDEAD"" />
- <text x="7.5cm" y="14.299999999999992cm"  font-size="10" text-anchor="middle" fill="black">NavajoWhite 那瓦霍白 #FFDEAD</text>
-<rect x="10cm" y="13.949999999999992cm" width="5cm" height=".45cm" fill="#000080"" />
- <text x="12.5cm" y="14.299999999999992cm"  font-size="10" text-anchor="middle" fill="black">Navy 藏青 #000080</text>
-<rect x="0cm" y="14.399999999999991cm" width="5cm" height=".45cm" fill="#FDF5E6"" />
- <text x="2.5cm" y="14.749999999999991cm"  font-size="10" text-anchor="middle" fill="black">OldLace 旧蕾丝色 #FDF5E6</text>
-<rect x="5cm" y="14.399999999999991cm" width="5cm" height=".45cm" fill="#808000"" />
- <text x="7.5cm" y="14.749999999999991cm"  font-size="10" text-anchor="middle" fill="black">Olive 橄榄色 #808000</text>
-<rect x="10cm" y="14.399999999999991cm" width="5cm" height=".45cm" fill="#6B8E23"" />
- <text x="12.5cm" y="14.749999999999991cm"  font-size="10" text-anchor="middle" fill="black">OliveDrab 橄榄军服绿 #6B8E23</text>
-<rect x="0cm" y="14.84999999999999cm" width="5cm" height=".45cm" fill="#FFA500"" />
- <text x="2.5cm" y="15.19999999999999cm"  font-size="10" text-anchor="middle" fill="black">Orange 橙色 #FFA500</text>
-<rect x="5cm" y="14.84999999999999cm" width="5cm" height=".45cm" fill="#FF4500"" />
- <text x="7.5cm" y="15.19999999999999cm"  font-size="10" text-anchor="middle" fill="black">OrangeRed 橙红色 #FF4500</text>
-<rect x="10cm" y="14.84999999999999cm" width="5cm" height=".45cm" fill="#DA70D6"" />
- <text x="12.5cm" y="15.19999999999999cm"  font-size="10" text-anchor="middle" fill="black">Orchid 兰紫 #DA70D6</text>
-<rect x="0cm" y="15.29999999999999cm" width="5cm" height=".45cm" fill="#EEE8AA"" />
- <text x="2.5cm" y="15.64999999999999cm"  font-size="10" text-anchor="middle" fill="black">PaleGoldenRod 灰金菊色 #EEE8AA</text>
-<rect x="5cm" y="15.29999999999999cm" width="5cm" height=".45cm" fill="#98FB98"" />
- <text x="7.5cm" y="15.64999999999999cm"  font-size="10" text-anchor="middle" fill="black">PaleGreen 灰绿 #98FB98</text>
-<rect x="10cm" y="15.29999999999999cm" width="5cm" height=".45cm" fill="#AFEEEE"" />
- <text x="12.5cm" y="15.64999999999999cm"  font-size="10" text-anchor="middle" fill="black">PaleTurquoise 灰绿松石色 #AFEEEE</text>
-<rect x="0cm" y="15.74999999999999cm" width="5cm" height=".45cm" fill="#D87093"" />
- <text x="2.5cm" y="16.09999999999999cm"  font-size="10" text-anchor="middle" fill="black">PaleVioletRed 灰紫红 #D87093</text>
-<rect x="5cm" y="15.74999999999999cm" width="5cm" height=".45cm" fill="#FFEFD5"" />
- <text x="7.5cm" y="16.09999999999999cm"  font-size="10" text-anchor="middle" fill="black">PapayaWhip 蕃木瓜色 #FFEFD5</text>
-<rect x="10cm" y="15.74999999999999cm" width="5cm" height=".45cm" fill="#FFDAB9"" />
- <text x="12.5cm" y="16.09999999999999cm"  font-size="10" text-anchor="middle" fill="black">PeachPuff 桃肉色 #FFDAB9</text>
-<rect x="0cm" y="16.19999999999999cm" width="5cm" height=".45cm" fill="#CD853F"" />
- <text x="2.5cm" y="16.54999999999999cm"  font-size="10" text-anchor="middle" fill="black">Peru 秘鲁色 #CD853F</text>
-<rect x="5cm" y="16.19999999999999cm" width="5cm" height=".45cm" fill="#FFC0CB"" />
- <text x="7.5cm" y="16.54999999999999cm"  font-size="10" text-anchor="middle" fill="black">Pink 粉红 #FFC0CB</text>
-<rect x="10cm" y="16.19999999999999cm" width="5cm" height=".45cm" fill="#DDA0DD"" />
- <text x="12.5cm" y="16.54999999999999cm"  font-size="10" text-anchor="middle" fill="black">Plum 梅红色 #DDA0DD</text>
-<rect x="0cm" y="16.649999999999988cm" width="5cm" height=".45cm" fill="#B0E0E6"" />
- <text x="2.5cm" y="16.99999999999999cm"  font-size="10" text-anchor="middle" fill="black">PowderBlue 粉蓝色 #B0E0E6</text>
-<rect x="5cm" y="16.649999999999988cm" width="5cm" height=".45cm" fill="#800080"" />
- <text x="7.5cm" y="16.99999999999999cm"  font-size="10" text-anchor="middle" fill="black">Purple 紫色 #800080</text>
-<rect x="10cm" y="16.649999999999988cm" width="5cm" height=".45cm" fill="#FF0000"" />
- <text x="12.5cm" y="16.99999999999999cm"  font-size="10" text-anchor="middle" fill="black">Red 红色 #FF0000</text>
-<rect x="0cm" y="17.099999999999987cm" width="5cm" height=".45cm" fill="#BC8F8F"" />
- <text x="2.5cm" y="17.44999999999999cm"  font-size="10" text-anchor="middle" fill="black">RosyBrown 玫瑰褐 #BC8F8F</text>
-<rect x="5cm" y="17.099999999999987cm" width="5cm" height=".45cm" fill="#4169E1"" />
- <text x="7.5cm" y="17.44999999999999cm"  font-size="10" text-anchor="middle" fill="black">RoyalBlue 品蓝 #4169E1</text>
-<rect x="10cm" y="17.099999999999987cm" width="5cm" height=".45cm" fill="#8B4513"" />
- <text x="12.5cm" y="17.44999999999999cm"  font-size="10" text-anchor="middle" fill="black">SaddleBrown 鞍褐 #8B4513</text>
-<rect x="0cm" y="17.549999999999986cm" width="5cm" height=".45cm" fill="#FA8072"" />
- <text x="2.5cm" y="17.899999999999988cm"  font-size="10" text-anchor="middle" fill="black">Salmon 鲑红 #FA8072</text>
-<rect x="5cm" y="17.549999999999986cm" width="5cm" height=".45cm" fill="#F4A460"" />
- <text x="7.5cm" y="17.899999999999988cm"  font-size="10" text-anchor="middle" fill="black">SandyBrown 沙褐色 #F4A460</text>
-<rect x="10cm" y="17.549999999999986cm" width="5cm" height=".45cm" fill="#2E8B57"" />
- <text x="12.5cm" y="17.899999999999988cm"  font-size="10" text-anchor="middle" fill="black">SeaGreen 海藻绿 #2E8B57</text>
-<rect x="0cm" y="17.999999999999986cm" width="5cm" height=".45cm" fill="#FFF5EE"" />
- <text x="2.5cm" y="18.349999999999987cm"  font-size="10" text-anchor="middle" fill="black">SeaShell 海贝色 #FFF5EE</text>
-<rect x="5cm" y="17.999999999999986cm" width="5cm" height=".45cm" fill="#A0522D"" />
- <text x="7.5cm" y="18.349999999999987cm"  font-size="10" text-anchor="middle" fill="black">Sienna 赭黄 #A0522D</text>
-<rect x="10cm" y="17.999999999999986cm" width="5cm" height=".45cm" fill="#C0C0C0"" />
- <text x="12.5cm" y="18.349999999999987cm"  font-size="10" text-anchor="middle" fill="black">Silver 银色 #C0C0C0</text>
-<rect x="0cm" y="18.449999999999985cm" width="5cm" height=".45cm" fill="#87CEEB"" />
- <text x="2.5cm" y="18.799999999999986cm"  font-size="10" text-anchor="middle" fill="black">SkyBlue 天蓝 #87CEEB</text>
-<rect x="5cm" y="18.449999999999985cm" width="5cm" height=".45cm" fill="#6A5ACD"" />
- <text x="7.5cm" y="18.799999999999986cm"  font-size="10" text-anchor="middle" fill="black">SlateBlue 岩蓝 #6A5ACD</text>
-<rect x="10cm" y="18.449999999999985cm" width="5cm" height=".45cm" fill="#708090"" />
- <text x="12.5cm" y="18.799999999999986cm"  font-size="10" text-anchor="middle" fill="black">SlateGray 岩灰 #708090</text>
-<rect x="0cm" y="18.899999999999984cm" width="5cm" height=".45cm" fill="#FFFAFA"" />
- <text x="2.5cm" y="19.249999999999986cm"  font-size="10" text-anchor="middle" fill="black">Snow 雪色 #FFFAFA</text>
-<rect x="5cm" y="18.899999999999984cm" width="5cm" height=".45cm" fill="#00FF7F"" />
- <text x="7.5cm" y="19.249999999999986cm"  font-size="10" text-anchor="middle" fill="black">SpringGreen 春绿 #00FF7F</text>
-<rect x="10cm" y="18.899999999999984cm" width="5cm" height=".45cm" fill="#4682B4"" />
- <text x="12.5cm" y="19.249999999999986cm"  font-size="10" text-anchor="middle" fill="black">SteelBlue 钢蓝色 #4682B4</text>
-<rect x="0cm" y="19.349999999999984cm" width="5cm" height=".45cm" fill="#D2B48C"" />
- <text x="2.5cm" y="19.699999999999985cm"  font-size="10" text-anchor="middle" fill="black">Tan 日晒色 #D2B48C</text>
-<rect x="5cm" y="19.349999999999984cm" width="5cm" height=".45cm" fill="#008080"" />
- <text x="7.5cm" y="19.699999999999985cm"  font-size="10" text-anchor="middle" fill="black">Teal 凫绿 #008080</text>
-<rect x="10cm" y="19.349999999999984cm" width="5cm" height=".45cm" fill="#D8BFD8"" />
- <text x="12.5cm" y="19.699999999999985cm"  font-size="10" text-anchor="middle" fill="black">Thistle 蓟紫 #D8BFD8</text>
-<rect x="0cm" y="19.799999999999983cm" width="5cm" height=".45cm" fill="#FF6347"" />
- <text x="2.5cm" y="20.149999999999984cm"  font-size="10" text-anchor="middle" fill="black">Tomato 蕃茄红 #FF6347</text>
-<rect x="5cm" y="19.799999999999983cm" width="5cm" height=".45cm" fill="#40E0D0"" />
- <text x="7.5cm" y="20.149999999999984cm"  font-size="10" text-anchor="middle" fill="black">Turquoise 绿松石色 #40E0D0</text>
-<rect x="10cm" y="19.799999999999983cm" width="5cm" height=".45cm" fill="#EE82EE"" />
- <text x="12.5cm" y="20.149999999999984cm"  font-size="10" text-anchor="middle" fill="black">Violet 紫罗兰色 #EE82EE</text>
-<rect x="0cm" y="20.249999999999982cm" width="5cm" height=".45cm" fill="#D02090"" />
- <text x="2.5cm" y="20.599999999999984cm"  font-size="10" text-anchor="middle" fill="black">VioletRed 紫红 #D02090</text>
-<rect x="5cm" y="20.249999999999982cm" width="5cm" height=".45cm" fill="#F5DEB3"" />
- <text x="7.5cm" y="20.599999999999984cm"  font-size="10" text-anchor="middle" fill="black">Wheat 小麦色 #F5DEB3</text>
-<rect x="10cm" y="20.249999999999982cm" width="5cm" height=".45cm" fill="#FFFFFF"" />
- <text x="12.5cm" y="20.599999999999984cm"  font-size="10" text-anchor="middle" fill="black">White 白色 #FFFFFF</text>
-<rect x="0cm" y="20.69999999999998cm" width="5cm" height=".45cm" fill="#F5F5F5"" />
- <text x="2.5cm" y="21.049999999999983cm"  font-size="10" text-anchor="middle" fill="black">WhiteSmoke 白烟色 #F5F5F5</text>
-<rect x="5cm" y="20.69999999999998cm" width="5cm" height=".45cm" fill="#FFFF00"" />
- <text x="7.5cm" y="21.049999999999983cm"  font-size="10" text-anchor="middle" fill="black">Yellow 黄色 #FFFF00</text>
-<rect x="10cm" y="20.69999999999998cm" width="5cm" height=".45cm" fill="#9ACD32"" />
- <text x="12.5cm" y="21.049999999999983cm"  font-size="10" text-anchor="middle" fill="black">YellowGreen 黄绿色 #9ACD32</text>
-</svg>
+ <text x="12.5cm" y="9.80cm"  font-size="10" text-anchor="middle" fill="black">LightCyan 亮青色 #E0FFFF</text>
+<rect x="0cm" y="9.90cm" width="5cm" height=".45cm" fill="#FAFAD2"" />
+ <text x="2.5cm" y="10.25cm"  font-size="10" text-anchor="middle" fill="black">LightGoldenRodYellow 亮秋黄 #FAFAD2</text>
+<rect x="5cm" y="9.90cm" width="5cm" height=".45cm" fill="#D3D3D3"" />
+ <text x="7.5cm" y="10.25cm"  font-size="10" text-anchor="middle" fill="black">LightGrey 亮灰色 #D3D3D3</text>
+<rect x="10cm" y="9.90cm" width="5cm" height=".45cm" fill="#90EE90"" />
+ <text x="12.5cm" y="10.25cm"  font-size="10" text-anchor="middle" fill="black">LightGreen 亮绿 #90EE90</text>
+<rect x="0cm" y="10.35cm" width="5cm" height=".45cm" fill="#FFB6C1"" />
+ <text x="2.5cm" y="10.70cm"  font-size="10" text-anchor="middle" fill="black">LightPink 浅粉红 #FFB6C1</text>
+<rect x="5cm" y="10.35cm" width="5cm" height=".45cm" fill="#FFA07A"" />
+ <text x="7.5cm" y="10.70cm"  font-size="10" text-anchor="middle" fill="black">LightSalmon 浅鲑红 #FFA07A</text>
+<rect x="10cm" y="10.35cm" width="5cm" height=".45cm" fill="#20B2AA"" />
+ <text x="12.5cm" y="10.70cm"  font-size="10" text-anchor="middle" fill="black">LightSeaGreen 亮海绿 #20B2AA</text>
+<rect x="0cm" y="10.80cm" width="5cm" height=".45cm" fill="#87CEFA"" />
+ <text x="2.5cm" y="11.15cm"  font-size="10" text-anchor="middle" fill="black">LightSkyBlue 亮天蓝 #87CEFA</text>
+<rect x="5cm" y="10.80cm" width="5cm" height=".45cm" fill="#778899"" />
+ <text x="7.5cm" y="11.15cm"  font-size="10" text-anchor="middle" fill="black">LightSlateGray 淡岩灰 #778899</text>
+<rect x="10cm" y="10.80cm" width="5cm" height=".45cm" fill="#B0C4DE"" />
+ <text x="12.5cm" y="11.15cm"  font-size="10" text-anchor="middle" fill="black">LightSteelBlue 亮钢蓝 #B0C4DE</text>
+<rect x="0cm" y="11.25cm" width="5cm" height=".45cm" fill="#FFFFE0"" />
+ <text x="2.5cm" y="11.60cm"  font-size="10" text-anchor="middle" fill="black">LightYellow 亮黄 #FFFFE0</text>
+<rect x="5cm" y="11.25cm" width="5cm" height=".45cm" fill="#00FF00"" />
+ <text x="7.5cm" y="11.60cm"  font-size="10" text-anchor="middle" fill="black">Lime 鲜绿色 #00FF00</text>
+<rect x="10cm" y="11.25cm" width="5cm" height=".45cm" fill="#32CD32"" />
+ <text x="12.5cm" y="11.60cm"  font-size="10" text-anchor="middle" fill="black">LimeGreen 酸橙绿 #32CD32</text>
+<rect x="0cm" y="11.70cm" width="5cm" height=".45cm" fill="#FAF0E6"" />
+ <text x="2.5cm" y="12.05cm"  font-size="10" text-anchor="middle" fill="black">Linen 亚麻色 #FAF0E6</text>
+<rect x="5cm" y="11.70cm" width="5cm" height=".45cm" fill="#FF00FF"" />
+ <text x="7.5cm" y="12.05cm"  font-size="10" text-anchor="middle" fill="black">Magenta 洋红 #FF00FF</text>
+<rect x="10cm" y="11.70cm" width="5cm" height=".45cm" fill="#800000"" />
+ <text x="12.5cm" y="12.05cm"  font-size="10" text-anchor="middle" fill="black">Maroon 栗色 #800000</text>
+<rect x="0cm" y="12.15cm" width="5cm" height=".45cm" fill="#66CDAA"" />
+ <text x="2.5cm" y="12.50cm"  font-size="10" text-anchor="middle" fill="black">MediumAquaMarine 中碧 #66CDAA</text>
+<rect x="5cm" y="12.15cm" width="5cm" height=".45cm" fill="#0000CD"" />
+ <text x="7.5cm" y="12.50cm"  font-size="10" text-anchor="middle" fill="black">MediumBlue 中蓝色 #0000CD</text>
+<rect x="10cm" y="12.15cm" width="5cm" height=".45cm" fill="#BA55D3"" />
+ <text x="12.5cm" y="12.50cm"  font-size="10" text-anchor="middle" fill="black">MediumOrchid 中兰紫 #BA55D3</text>
+<rect x="0cm" y="12.60cm" width="5cm" height=".45cm" fill="#9370D8"" />
+ <text x="2.5cm" y="12.95cm"  font-size="10" text-anchor="middle" fill="black">MediumPurple 中紫红 #9370D8</text>
+<rect x="5cm" y="12.60cm" width="5cm" height=".45cm" fill="#3CB371"" />
+ <text x="7.5cm" y="12.95cm"  font-size="10" text-anchor="middle" fill="black">MediumSeaGreen 中海绿 #3CB371</text>
+<rect x="10cm" y="12.60cm" width="5cm" height=".45cm" fill="#7B68EE"" />
+ <text x="12.5cm" y="12.95cm"  font-size="10" text-anchor="middle" fill="black">MediumSlateBlue 中岩蓝 #7B68EE</text>
+<rect x="0cm" y="13.05cm" width="5cm" height=".45cm" fill="#00FA9A"" />
+ <text x="2.5cm" y="13.40cm"  font-size="10" text-anchor="middle" fill="black">MediumSpringGreen 中春绿 #00FA9A</text>
+<rect x="5cm" y="13.05cm" width="5cm" height=".45cm" fill="#48D1CC"" />
+ <text x="7.5cm" y="13.40cm"  font-size="10" text-anchor="middle" fill="black">MediumTurquoise 中绿松 #48D1CC</text>
+<rect x="10cm" y="13.05cm" width="5cm" height=".45cm" fill="#C71585"" />
+ <text x="12.5cm" y="13.40cm"  font-size="10" text-anchor="middle" fill="black">MediumVioletRed 中紫罗兰色 #C71585</text>
+<rect x="0cm" y="13.50cm" width="5cm" height=".45cm" fill="#191970"" />
+ <text x="2.5cm" y="13.85cm"  font-size="10" text-anchor="middle" fill="black">MidnightBlue 午夜蓝 #191970</text>
+<rect x="5cm" y="13.50cm" width="5cm" height=".45cm" fill="#F5FFFA"" />
+ <text x="7.5cm" y="13.85cm"  font-size="10" text-anchor="middle" fill="black">MintCream 薄荷奶油色 #F5FFFA</text>
+<rect x="10cm" y="13.50cm" width="5cm" height=".45cm" fill="#FFE4E1"" />
+ <text x="12.5cm" y="13.85cm"  font-size="10" text-anchor="middle" fill="black">MistyRose 雾玫瑰色 #FFE4E1</text>
+<rect x="0cm" y="13.95cm" width="5cm" height=".45cm" fill="#FFE4B5"" />
+ <text x="2.5cm" y="14.30cm"  font-size="10" text-anchor="middle" fill="black">Moccasin 鹿皮鞋色 #FFE4B5</text>
+<rect x="5cm" y="13.95cm" width="5cm" height=".45cm" fill="#FFDEAD"" />
+ <text x="7.5cm" y="14.30cm"  font-size="10" text-anchor="middle" fill="black">NavajoWhite 那瓦霍白 #FFDEAD</text>
+<rect x="10cm" y="13.95cm" width="5cm" height=".45cm" fill="#000080"" />
+ <text x="12.5cm" y="14.30cm"  font-size="10" text-anchor="middle" fill="black">Navy 藏青 #000080</text>
+<rect x="0cm" y="14.40cm" width="5cm" height=".45cm" fill="#FDF5E6"" />
+ <text x="2.5cm" y="14.75cm"  font-size="10" text-anchor="middle" fill="black">OldLace 旧蕾丝色 #FDF5E6</text>
+<rect x="5cm" y="14.40cm" width="5cm" height=".45cm" fill="#808000"" />
+ <text x="7.5cm" y="14.75cm"  font-size="10" text-anchor="middle" fill="black">Olive 橄榄色 #808000</text>
+<rect x="10cm" y="14.40cm" width="5cm" height=".45cm" fill="#6B8E23"" />
+ <text x="12.5cm" y="14.75cm"  font-size="10" text-anchor="middle" fill="black">OliveDrab 橄榄军服绿 #6B8E23</text>
+<rect x="0cm" y="14.85cm" width="5cm" height=".45cm" fill="#FFA500"" />
+ <text x="2.5cm" y="15.20cm"  font-size="10" text-anchor="middle" fill="black">Orange 橙色 #FFA500</text>
+<rect x="5cm" y="14.85cm" width="5cm" height=".45cm" fill="#FF4500"" />
+ <text x="7.5cm" y="15.20cm"  font-size="10" text-anchor="middle" fill="black">OrangeRed 橙红色 #FF4500</text>
+<rect x="10cm" y="14.85cm" width="5cm" height=".45cm" fill="#DA70D6"" />
+ <text x="12.5cm" y="15.20cm"  font-size="10" text-anchor="middle" fill="black">Orchid 兰紫 #DA70D6</text>
+<rect x="0cm" y="15.30cm" width="5cm" height=".45cm" fill="#EEE8AA"" />
+ <text x="2.5cm" y="15.65cm"  font-size="10" text-anchor="middle" fill="black">PaleGoldenRod 灰金菊色 #EEE8AA</text>
+<rect x="5cm" y="15.30cm" width="5cm" height=".45cm" fill="#98FB98"" />
+ <text x="7.5cm" y="15.65cm"  font-size="10" text-anchor="middle" fill="black">PaleGreen 灰绿 #98FB98</text>
+<rect x="10cm" y="15.30cm" width="5cm" height=".45cm" fill="#AFEEEE"" />
+ <text x="12.5cm" y="15.65cm"  font-size="10" text-anchor="middle" fill="black">PaleTurquoise 灰绿松石色 #AFEEEE</text>
+<rect x="0cm" y="15.75cm" width="5cm" height=".45cm" fill="#D87093"" />
+ <text x="2.5cm" y="16.10cm"  font-size="10" text-anchor="middle" fill="black">PaleVioletRed 灰紫红 #D87093</text>
+<rect x="5cm" y="15.75cm" width="5cm" height=".45cm" fill="#FFEFD5"" />
+ <text x="7.5cm" y="16.10cm"  font-size="10" text-anchor="middle" fill="black">PapayaWhip 蕃木瓜色 #FFEFD5</text>
+<rect x="10cm" y="15.75cm" width="5cm" height=".45cm" fill="#FFDAB9"" />
+ <text x="12.5cm" y="16.10cm"  font-size="10" text-anchor="middle" fill="black">PeachPuff 桃肉色 #FFDAB9</text>
+<rect x="0cm" y="16.20cm" width="5cm" height=".45cm" fill="#CD853F"" />
+ <text x="2.5cm" y="16.55cm"  font-size="10" text-anchor="middle" fill="black">Peru 秘鲁色 #CD853F</text>
+<rect x="5cm" y="16.20cm" width="5cm" height=".45cm" fill="#FFC0CB"" />
+ <text x="7.5cm" y="16.55cm"  font-size="10" text-anchor="middle" fill="black">Pink 粉红 #FFC0CB</text>
+<rect x="10cm" y="16.20cm" width="5cm" height=".45cm" fill="#DDA0DD"" />
+ <text x="12.5cm" y="16.55cm"  font-size="10" text-anchor="middle" fill="black">Plum 梅红色 #DDA0DD</text>
+<rect x="0cm" y="16.65cm" width="5cm" height=".45cm" fill="#B0E0E6"" />
+ <text x="2.5cm" y="17.00cm"  font-size="10" text-anchor="middle" fill="black">PowderBlue 粉蓝色 #B0E0E6</text>
+<rect x="5cm" y="16.65cm" width="5cm" height=".45cm" fill="#800080"" />
+ <text x="7.5cm" y="17.00cm"  font-size="10" text-anchor="middle" fill="black">Purple 紫色 #800080</text>
+<rect x="10cm" y="16.65cm" width="5cm" height=".45cm" fill="#FF0000"" />
+ <text x="12.5cm" y="17.00cm"  font-size="10" text-anchor="middle" fill="black">Red 红色 #FF0000</text>
+<rect x="0cm" y="17.10cm" width="5cm" height=".45cm" fill="#BC8F8F"" />
+ <text x="2.5cm" y="17.45cm"  font-size="10" text-anchor="middle" fill="black">RosyBrown 玫瑰褐 #BC8F8F</text>
+<rect x="5cm" y="17.10cm" width="5cm" height=".45cm" fill="#4169E1"" />
+ <text x="7.5cm" y="17.45cm"  font-size="10" text-anchor="middle" fill="black">RoyalBlue 品蓝 #4169E1</text>
+<rect x="10cm" y="17.10cm" width="5cm" height=".45cm" fill="#8B4513"" />
+ <text x="12.5cm" y="17.45cm"  font-size="10" text-anchor="middle" fill="black">SaddleBrown 鞍褐 #8B4513</text>
+<rect x="0cm" y="17.55cm" width="5cm" height=".45cm" fill="#FA8072"" />
+ <text x="2.5cm" y="17.90cm"  font-size="10" text-anchor="middle" fill="black">Salmon 鲑红 #FA8072</text>
+<rect x="5cm" y="17.55cm" width="5cm" height=".45cm" fill="#F4A460"" />
+ <text x="7.5cm" y="17.90cm"  font-size="10" text-anchor="middle" fill="black">SandyBrown 沙褐色 #F4A460</text>
+<rect x="10cm" y="17.55cm" width="5cm" height=".45cm" fill="#2E8B57"" />
+ <text x="12.5cm" y="17.90cm"  font-size="10" text-anchor="middle" fill="black">SeaGreen 海藻绿 #2E8B57</text>
+<rect x="0cm" y="18.00cm" width="5cm" height=".45cm" fill="#FFF5EE"" />
+ <text x="2.5cm" y="18.35cm"  font-size="10" text-anchor="middle" fill="black">SeaShell 海贝色 #FFF5EE</text>
+<rect x="5cm" y="18.00cm" width="5cm" height=".45cm" fill="#A0522D"" />
+ <text x="7.5cm" y="18.35cm"  font-size="10" text-anchor="middle" fill="black">Sienna 赭黄 #A0522D</text>
+<rect x="10cm" y="18.00cm" width="5cm" height=".45cm" fill="#C0C0C0"" />
+ <text x="12.5cm" y="18.35cm"  font-size="10" text-anchor="middle" fill="black">Silver 银色 #C0C0C0</text>
+<rect x="0cm" y="18.45cm" width="5cm" height=".45cm" fill="#87CEEB"" />
+ <text x="2.5cm" y="18.80cm"  font-size="10" text-anchor="middle" fill="black">SkyBlue 天蓝 #87CEEB</text>
+<rect x="5cm" y="18.45cm" width="5cm" height=".45cm" fill="#6A5ACD"" />
+ <text x="7.5cm" y="18.80cm"  font-size="10" text-anchor="middle" fill="black">SlateBlue 岩蓝 #6A5ACD</text>
+<rect x="10cm" y="18.45cm" width="5cm" height=".45cm" fill="#708090"" />
+ <text x="12.5cm" y="18.80cm"  font-size="10" text-anchor="middle" fill="black">SlateGray 岩灰 #708090</text>
+<rect x="0cm" y="18.90cm" width="5cm" height=".45cm" fill="#FFFAFA"" />
+ <text x="2.5cm" y="19.25cm"  font-size="10" text-anchor="middle" fill="black">Snow 雪色 #FFFAFA</text>
+<rect x="5cm" y="18.90cm" width="5cm" height=".45cm" fill="#00FF7F"" />
+ <text x="7.5cm" y="19.25cm"  font-size="10" text-anchor="middle" fill="black">SpringGreen 春绿 #00FF7F</text>
+<rect x="10cm" y="18.90cm" width="5cm" height=".45cm" fill="#4682B4"" />
+ <text x="12.5cm" y="19.25cm"  font-size="10" text-anchor="middle" fill="black">SteelBlue 钢蓝色 #4682B4</text>
+<rect x="0cm" y="19.35cm" width="5cm" height=".45cm" fill="#D2B48C"" />
+ <text x="2.5cm" y="19.70cm"  font-size="10" text-anchor="middle" fill="black">Tan 日晒色 #D2B48C</text>
+<rect x="5cm" y="19.35cm" width="5cm" height=".45cm" fill="#008080"" />
+ <text x="7.5cm" y="19.70cm"  font-size="10" text-anchor="middle" fill="black">Teal 凫绿 #008080</text>
+<rect x="10cm" y="19.35cm" width="5cm" height=".45cm" fill="#D8BFD8"" />
+ <text x="12.5cm" y="19.70cm"  font-size="10" text-anchor="middle" fill="black">Thistle 蓟紫 #D8BFD8</text>
+<rect x="0cm" y="19.80cm" width="5cm" height=".45cm" fill="#FF6347"" />
+ <text x="2.5cm" y="20.15cm"  font-size="10" text-anchor="middle" fill="black">Tomato 蕃茄红 #FF6347</text>
+<rect x="5cm" y="19.80cm" width="5cm" height=".45cm" fill="#40E0D0"" />
+ <text x="7.5cm" y="20.15cm"  font-size="10" text-anchor="middle" fill="black">Turquoise 绿松石色 #40E0D0</text>
+<rect x="10cm" y="19.80cm" width="5cm" height=".45cm" fill="#EE82EE"" />
+ <text x="12.5cm" y="20.15cm"  font-size="10" text-anchor="middle" fill="black">Violet 紫罗兰色 #EE82EE</text>
+<rect x="0cm" y="20.25cm" width="5cm" height=".45cm" fill="#D02090"" />
+ <text x="2.5cm" y="20.60cm"  font-size="10" text-anchor="middle" fill="black">VioletRed 紫红 #D02090</text>
+<rect x="5cm" y="20.25cm" width="5cm" height=".45cm" fill="#F5DEB3"" />
+ <text x="7.5cm" y="20.60cm"  font-size="10" text-anchor="middle" fill="black">Wheat 小麦色 #F5DEB3</text>
+<rect x="10cm" y="20.25cm" width="5cm" height=".45cm" fill="#FFFFFF"" />
+ <text x="12.5cm" y="20.60cm"  font-size="10" text-anchor="middle" fill="black">White 白色 #FFFFFF</text>
+<rect x="0cm" y="20.70cm" width="5cm" height=".45cm" fill="#F5F5F5"" />
+ <text x="2.5cm" y="21.05cm"  font-size="10" text-anchor="middle" fill="black">WhiteSmoke 白烟色 #F5F5F5</text>
+<rect x="5cm" y="20.70cm" width="5cm" height=".45cm" fill="#FFFF00"" />
+ <text x="7.5cm" y="21.05cm"  font-size="10" text-anchor="middle" fill="black">Yellow 黄色 #FFFF00</text>
+<rect x="10cm" y="20.70cm" width="5cm" height=".45cm" fill="#9ACD32"" />
+ <text x="12.5cm" y="21.05cm"  font-size="10" text-anchor="middle" fill="black">YellowGreen 黄绿色 #9ACD32</text>
+ <text x="7.5cm" y="1.25cm"  font-size="10" text-anchor="middle" fill="white">Black 黑色 #000000</text> <text x="2.5cm" y="3.5cm"  font-size="10" text-anchor="middle" fill="white">DarkBlue 暗蓝 #00008B</text> <text x="12.5cm" y="8.45cm"  font-size="10" text-anchor="middle" fill="white">Indigo 靛色 #4B0082</text><text x="7.5cm" y="12.50cm"  font-size="10" text-anchor="middle" fill="white">MediumBlue 中蓝色 #0000CD</text> <text x="2.5cm" y="13.85cm"  font-size="10" text-anchor="middle" fill="white">MidnightBlue 午夜蓝 #191970</text> <text x="12.5cm" y="14.3cm"  font-size="10" text-anchor="middle" fill="white">Navy 藏青 #000080</text></svg>
