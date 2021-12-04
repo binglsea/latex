@@ -7,9 +7,9 @@ Created on Thu Dec  2 20:20:05 2021
 """
 #本程序文件路径: .../code/py/html_colors_svg.py
 #输入文件路径: .../code/txt/html_colors.txt
-#输出文件路径: .../figs/svg/html_colors.svg
+#输出文件路径: .../code/svg/html_colors.svg
 in_file = __file__.replace('py', 'txt').replace('_svg', '')
-out_file = in_file.replace('txt', 'svg').replace('code', 'figs')
+out_file = in_file.replace('txt', 'svg')
 
 out_file_obj = open(out_file, 'w')
 # HTML 支持 141 种颜色，每行 3 种，47 行
