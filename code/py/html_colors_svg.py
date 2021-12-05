@@ -29,7 +29,7 @@ with open(in_file) as in_file_object:
     x = 5 * column
     out_file_obj.write('<rect x="{}cm" y="{:.2f}cm" '.format(x, y))
     out_file_obj.write('width="5cm" height=".45cm" fill="{}"'.format(words[2]))
-    out_file_obj.write('" />\n')
+    out_file_obj.write(' />\n')
     out_file_obj.write(' <text x="{}cm" y="{:.2f}cm" '.format(x+2.5, y+.35))
     # 字体 10px
     out_file_obj.write(' font-size="10" text-anchor="middle" fill="black">')

@@ -43,7 +43,7 @@ with open(in_file2) as in_file2_object:
     out_file_obj.write('<rect x="{:.2f}cm" y="{:.2f}cm" '.format(x, y))
     out_file_obj.write('width="{}cm" height=".45cm" fill="{}"'
                        .format(box_width, words[2]))
-    out_file_obj.write('" />\n')
+    out_file_obj.write(' />\n')
     out_file_obj.write(' <text x="{:.2f}cm" y="{:.2f}cm" '.format(x+box_width/2, y+.35))
     # 字体 10px
     out_file_obj.write(' font-size="10" text-anchor="middle" fill="black">')
