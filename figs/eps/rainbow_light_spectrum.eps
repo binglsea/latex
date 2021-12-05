@@ -1,15 +1,20 @@
 %!PS-Adobe-3.0 EPSF-3.0
-%%BoundingBox: 0 0 80 30
+%%BoundingBox: 0 0 420 30
 
-1 1 1  
-  0 60 0 {
-  %newpath
-  0 0   moveto
+0 1 0  
+1 0 1  
+0 0 1  
+1 0 0
+  0 60 60 {
+  newpath
+  0 exch 
+  moveto
   60 0  rlineto
   0 20  rlineto
  -60   0  rlineto
+  closepath 
   setrgbcolor
-  closepath fill
+  fill
  } for
 
 showpage
