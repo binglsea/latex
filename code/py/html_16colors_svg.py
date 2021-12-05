@@ -20,7 +20,7 @@ out_file_obj = open(out_file, 'w')
 # 大矩行 15cm x 21.15cm (= 3*5 x 47*0.45)
 box_width = 3.7    # cm
 box_height = .45  # cm
-out_file_obj.write('<svg version="1.1" width="15cm" height="21.15cm"\n')
+out_file_obj.write('<svg version="1.1" width="15cm" height="2cm"\n')
 out_file_obj.write('    xmlns="http://www.w3.org/2000/svg">\n')
 
 basic_color_names = list()
