@@ -8,8 +8,7 @@
 现在更被采纳的彩虹主要颜色顺序是红橙黄绿蓝靛紫,牛顿是把这个当作日光光谱主要颜色的顺序.牛顿先把日光光谱的主要颜色分为五种:红黄绿蓝紫,
 后因相信古希腊人对数字7的推崇，把橙色和靛色加了进去.
 日光通过棱镜折出来的光谱与彩虹光谱有所不同,
-根据物理学,光谱中的颜色是和光波的波长和频率相对应的.
-通过对日光的现代光谱分析,把赤橙黄绿青蓝紫作为日光光谱主要颜色顺序更为恰当.经计算编程, 列出这两种顺序如 \ref{fig:1.4.1}.
+通过对日光的现代光谱分析,把赤橙黄绿青蓝紫作为日光光谱主要颜色顺序更为恰当.经编程计算, 列出这两种顺序如 \ref{fig:1.4.1}.
 
 \begin{figure}[h]
 	\centering
@@ -17,8 +16,22 @@
 	\caption{“ 红橙黄绿蓝靛紫”与“赤橙黄绿青蓝紫” }
 	\label{fig:1.4.1}
 \end{figure}
-
-770～622nm，感觉为红色；622～597nm，橙色；597～577nm，黄色；577～492nm，绿色；492～455nm，蓝靛色；455～390nm，紫色。
+根据物理学,光谱中的颜色是和光波的波长(1 THz = 1 太赫兹 = $10^{12}$ 赫兹 )和频率(1 nm = 1 纳米 = $10^{-9}$ 米)相对应的.
+\begin{center}
+	\begin{tabular}{c c c c} 
+		\hline
+		颜色 & 频率 & 波长  \\ [0.5ex] 
+		\hline
+		紫色 & 668–789 THz & 380–450 nm \\
+		蓝色 & 631–668 THz & 450–475 nm \\
+		青色 & 606–630 THz & 476–495 nm \\
+		绿色 & 526–606 THz & 495–570 nm \\
+		黄色 & 508–526 THz & 570–590 nm \\
+		橙色 & 484–508 THz & 590–620 nm \\
+		红色 & 400–484 THz & 620–750 nm \\		
+		\hline
+	\end{tabular}
+\end{center}
 
 SVG\index{SVG, Scalable Vector Graphics} 1.1定义了147 种颜色的英文名\footnote{https://www.w3.org/TR/SVG11/types.html}.
 所有浏览器都支持 HTML/CSS 使用其中 141 种颜色的英文名.
@@ -42,30 +55,6 @@ VioletRed (紫红). 另外也应注意Green (绿色 \#{}008000)和Lime (鲜绿�
 	\label{fig:1.4.3}
 \end{figure}
 
-cyan = 1.0 - red
-
-magenta = 1.0 - green
-
-yellow = 1.0 - blue
-
-indigo \#4B0082 75, 0, 130
-
-\begin{figure}
-	\centering
-	\includegraphics[width=0.5\columnwidth]{svg/simple_example.eps}
-	\caption{简单例子}
-	\label{fig:I.1.}
-\end{figure}
-
-
-
-爱丽丝蓝%#F0F8FF
-古董白%#FAEBD7
-水色%#00FFFF
-海蓝宝石% #7FFFD4
-天蓝色%#F0FFFF
-米色% #F5F5DC
-浓汤%#FFE4C4
 
 \newpage
 \end{document} 
