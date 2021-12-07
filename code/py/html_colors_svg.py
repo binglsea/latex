@@ -29,7 +29,7 @@ with open(in_file) as in_file_object:
     x = 5 * column
     out_file_obj.write('<rect x="{}cm" y="{:.2f}cm" '.format(x, y))
     out_file_obj.write('width="5cm" height=".45cm" fill="{}"'.format(words[2]))
-    out_file_obj.write('" />\n')
+    out_file_obj.write(' />\n')
     out_file_obj.write(' <text x="{}cm" y="{:.2f}cm" '.format(x+2.5, y+.35))
     # 字体 10px
     out_file_obj.write(' font-size="10" text-anchor="middle" fill="black">')
@@ -37,12 +37,16 @@ with open(in_file) as in_file_object:
     column += 1
 
 # 深底重新配白字
-out_file_obj.write(' <text x="7.5cm" y="1.25cm"  font-size="10" text-anchor="middle" fill="white">Black 黑色 #000000</text>')
-out_file_obj.write(' <text x="2.5cm" y="3.5cm"  font-size="10" text-anchor="middle" fill="white">DarkBlue 暗蓝 #00008B</text>')
-out_file_obj.write(' <text x="12.5cm" y="8.45cm"  font-size="10" text-anchor="middle" fill="white">Indigo 靛色 #4B0082</text>')
-out_file_obj.write('<text x="7.5cm" y="12.50cm"  font-size="10" text-anchor="middle" fill="white">MediumBlue 中蓝色 #0000CD</text>')
-out_file_obj.write(' <text x="2.5cm" y="13.85cm"  font-size="10" text-anchor="middle" fill="white">MidnightBlue 午夜蓝 #191970</text>')
-out_file_obj.write(' <text x="12.5cm" y="14.3cm"  font-size="10" text-anchor="middle" fill="white">Navy 藏青 #000080</text>')
+out_file_obj.write(' <text x="7.5cm" y="1.25cm"  font-size="10" text-anchor="middle" fill="white">Black 黑色 #000000</text>\n')
+out_file_obj.write(' <text x="2.5cm" y="3.5cm"  font-size="10" text-anchor="middle" fill="white">DarkBlue 暗蓝 #00008B</text>\n')
+out_file_obj.write(' <text x="12.5cm" y="8.45cm"  font-size="10" text-anchor="middle" fill="white">Indigo 靛色 #4B0082</text>\n')
+out_file_obj.write('<text x="7.5cm" y="12.50cm"  font-size="10" text-anchor="middle" fill="white">MediumBlue 中蓝色 #0000CD</text>\n')
+out_file_obj.write(' <text x="2.5cm" y="13.85cm"  font-size="10" text-anchor="middle" fill="white">MidnightBlue 午夜蓝 #191970</text>\n')
+out_file_obj.write(' <text x="12.5cm" y="14.3cm"  font-size="10" text-anchor="middle" fill="white">Navy 藏青 #000080</text>\n')
+
+#
+out_file_obj.write(' <rect x="0cm" y="9.90cm" width="5cm" height=".45cm" fill="LightGoldenRodYellow" />\n')
+out_file_obj.write('  <text x="2.5cm" y="10.25cm"  font-size="9" text-anchor="middle" fill="black">LightGoldenRodYellow 亮秋黄 #FAFAD2</text>\n')
 
 out_file_obj.write('</svg>')
 out_file_obj.close()
