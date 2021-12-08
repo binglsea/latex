@@ -1,6 +1,19 @@
 \documentclass[main.tex]{subfiles}
 \begin{document}
-	
+
+
+gb2312
+
+import urllib.request
+import urllib.parse
+
+url = 'http://xh.5156edu.com'
+f = urllib.request.urlopen(url)
+txt = f.read().decode('gb2312')
+print(txt)
+
+GB 18030，全称《信息技术 中文编码字符集》，是中华人民共和国国家标准所规定的变长多字节字符集。
+
 1、jieba库基本介绍
 (1)、jieba库概述
 jieba是优秀的中文分词第三方库
