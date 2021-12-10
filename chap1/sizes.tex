@@ -55,18 +55,19 @@ for i in range(0, 11):
 输出结果如下：
 \vspace{.4cm}
 \begin{spacing}{0.8}
-	\begin{small}
-\begin{lstlisting}
-A系列纸张的理论尺寸(mm x mm):
- A0: 841 x 1189    840.90 x 1189.21     840 x 1189
- A1: 595 x 841     594.60 x 840.90      594 x 840
- A2: 420 x 595     420.45 x 594.60      420 x 594
- A3: 297 x 420     297.30 x 420.45      297 x 420
- A4: 210 x 297     210.22 x 297.30      210 x 297
- ...
+%	\begin{small}
+A系列纸张的理论尺寸(mm \textsf{x} mm):
 
-\end{lstlisting}
-\end{small}
+\begin{tabular}{l l l l}
+ A0: & 841 \textsf{x} 1189  &  840.90  \textsf{x} 1189.21   &  840  \textsf{x} 1189 \\
+ A1: & 595 \textsf{x} 841 &    594.60  \textsf{x} 840.90   &   594  \textsf{x} 840\\
+ A2: & 420 \textsf{x} 595   &  420.45  \textsf{x} 594.60  &    420  \textsf{x} 594\\
+ A3: & 297 \textsf{x} 420   &  297.30  \textsf{x} 420.45   &   297  \textsf{x} 420\\
+ A4: & 210 \textsf{x} 297   &  210.22  \textsf{x} 297.30    &  210  \textsf{x} 297\\
+ ...
+\end{tabular}
+
+
 \end{spacing}
 \vspace{.4cm}\label{a_paper_py}
 国际标准 ISO 216 中毫米仅保留到整数。第一列结果四舍五入显然不符合切裁纸张的实际。第三列用 \texttt{int()}丢弃小数部分，宽高仅保留整数部分，所以应该最符合实际。事实上，除了ISO 216 A1的尺寸是594毫米\texttt{x}{ }841毫米而不同外，第三列的其它都符合国际标准。
