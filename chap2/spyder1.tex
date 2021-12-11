@@ -9,8 +9,33 @@
 	\label{fig:2.3.1}
 \end{figure}
 
+\begin{small}
+\begin{spacing}{0.8}
+	\begin{lstlisting}[language=Python]
+
+  0  #%%		
+  1  import re
+  2  """
+  3  Remark 100以内有25个质数
+  4  """		
+  5  x = "100以内有25个质数。" + \
+  6		'不实际计算的话,其中51和91很容易被误判为是质数。'
+  7  x = re.sub('质数', '素数', x)
+  8  x = x.replace('其中', '')
+  9  print(x)
+		
+\end{lstlisting}
+\end{spacing}
+\end{small}
+
 the Specifying Colors tutorial;
 the matplotlib.colors API;
 the Color Demo.
+
+
+\begin{small}
+\input{chap2/ch2.1.py.tex}
+%\end{lstlisting}
+\end{small}
 
 \end{document} 
