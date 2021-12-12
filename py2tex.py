@@ -24,6 +24,7 @@ for x in dir_names:
     print('From: ' + in_file)
     print('To: ' + out_file)
     with open(out_file, 'w') as out_file__obj:
+      out_file__obj.write(r'\begin{small}' + '\n')
       out_file__obj.write(r'\begin{spacing}{0.8}' + '\n')
       out_file__obj.write(r'\begin{lstlisting}[language=Python]' + '\n')
       
@@ -35,4 +36,5 @@ for x in dir_names:
       
       out_file__obj.write(r'\end{lstlisting}' + '\n')
       out_file__obj.write(r'\end{spacing}' + '\n')
+      out_file__obj.write(r'\end{small}' + '\n')
     
