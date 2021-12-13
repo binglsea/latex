@@ -6,8 +6,8 @@ Created on Sat Dec  4 21:53:50 2021
 @author: bing
 """
 
-#wl_to_rgb.py:
-#!/usr/bin/env python
+# wl_to_rgb.py:
+# !/usr/bin/env python
 # vim:set ft=python fileencoding=utf-8 sr et ts=4 sw=4 : See help 'modeline'
 
 '''
@@ -48,12 +48,13 @@ import os
 import traceback
 import optparse
 import time
-#import logging
+
+
+# import logging
 
 
 def wavelength_to_rgb(wavelength, gamma=0.8):
-
-    '''This converts a given wavelength of light to an 
+    '''This converts a given wavelength of light to an
     approximate RGB color value. The wavelength must be given
     in nanometers in the range from 380 nm through 750 nm
     (789 THz through 400 THz).
@@ -100,9 +101,8 @@ def wavelength_to_rgb(wavelength, gamma=0.8):
 
 
 def main(options=None, args=None):
-
-#    import ppm_dump
-#    import png_canvas
+    #    import ppm_dump
+    #    import png_canvas
     import canvas
     if options.ppm:
         canvas = canvas.ppm_canvas(371, 278)
@@ -114,6 +114,7 @@ def main(options=None, args=None):
         for yy in range(0, 278):
             canvas.pixel(wl - 380, yy, r, g, b)
     sys.stdout.write(str(canvas))
+
 
 if __name__ == '__main__':
     try:
@@ -136,7 +137,7 @@ if __name__ == '__main__':
             default=False, help='Output as PPM ASCII (Portable Pixmap).'
         )
         (options, args) = parser.parse_args()
-        #if len(args) < 1:
+        # if len(args) < 1:
         #    parser.error ('missing argument')
         if options.verbose:
             print(time.asctime())
