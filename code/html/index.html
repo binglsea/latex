@@ -16,6 +16,9 @@
     }
   </style>
   <script>
+    function updateIframeSrc(src) {
+      document.getElementById("mainContent").src = src;
+    }
 
   </script>
 </head>
@@ -23,17 +26,11 @@
 <h1>Graphs</h1>
 <div class="menu">
   <nav class="cell">
-    <div><a>16 种基本颜色</a></div>
-    <div onclick=""><a>141 种颜色</a></div>
+    <div onclick="updateIframeSrc('../svg/html_16colors.svg')"><a>16 种基本颜色</a></div>
+    <div onclick="updateIframeSrc('../svg/html_colors.svg')"><a>141 种颜色</a></div>
   </nav>
 </div>
 
-<iframe class="mainContent" name="mainContent" id="mainContent" src="../svg/html_colors.svg" frameborder="0"></iframe>
-
-<script>
-  //document.write("<h1>Hello World!</h1><p>Have a nice day!</p>");
-  document.write(window.frames.length);
-</script>
-
+<iframe class="mainContent" name="mainContent" id="mainContent" src="../svg/html_16colors.svg" frameborder="0"></iframe>
 </body>
 </html>
