@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>数学：编程与作图, Python、PostScript 和 SVG 的浅入</title>
   <meta charset="UTF-8">
+  <title>数学：编程与作图, Python、PostScript 和 SVG 的浅入</title>
   <style>
+   h1 {text-align: center;}
    .menu {
       float:left;
       width:20%;
-      height:80%;
+      background-color: burlywood;
     }
     .mainContent {
       float:left;
       width:75%;
-      height:80%;
     }
   </style>
+  <script>
+
+  </script>
 </head>
 <body>
 <h1>Graphs</h1>
-<iframe class="menu" name="menu" id="menu" src="menu.html" scrolling="no" frameborder="0"></iframe>
-<iframe class="mainContent" name="mainContent" id="mainContent" src="../svg/html_16colors.svg" frameborder="0"></iframe>
+<div class="menu">
+  <nav class="cell">
+    <div><a>16 种基本颜色</a></div>
+    <div onclick=""><a>141 种颜色</a></div>
+  </nav>
+</div>
+
+<iframe class="mainContent" name="mainContent" id="mainContent" src="../svg/html_colors.svg" frameborder="0"></iframe>
 
 <script>
   //document.write("<h1>Hello World!</h1><p>Have a nice day!</p>");
