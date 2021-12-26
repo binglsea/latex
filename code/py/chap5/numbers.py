@@ -5,13 +5,5 @@ Created on Sun Dec 12 07:07:44 2021
 
 @author: bing
 """
-import itertools
-
-import numpy as np
-import matplotlib.pyplot as plt
-import matplotlib.animation as animation
-
-from matplotlib import font_manager
-
-import matplotlib
-print(matplotlib.matplotlib_fname())
+for i in range(0x03b1, 0x03c9):
+  print(hex(i), chr(i), ' ' , chr(i).encode('utf-8'), ' ', '{0:b}'.format(i))
