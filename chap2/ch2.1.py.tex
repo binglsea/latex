@@ -1,22 +1,22 @@
-\begin{small}
 \begin{spacing}{0.8}
+\begin{small}
 \begin{lstlisting}[language=Python]
-  1  import re
-  2  
-  3  x = "100以内有25个质数。"
-  4  x += "不实际计算的话,51和91很容易被误判为是素数。"
-  5  y = re.sub("质数", "素数", x)
-  6  z = x.replace("素数", "质数")
-  7  print(y)
-  8  print(z)
-  9  print(x)
- 10  
- 11  #%%
- 12  import math
- 13  
- 14  print("hello")
- 15  print(re.sub("This", "That", "This is not"))
- 16  print(math.pi)
+import re
+
+x = "100以内有25个质数。"
+x += "不实际计算的话,51和91很容易被误判为是素数。"
+y = re.sub("质数", "素数", x)
+z = x.replace("素数", "质数")
+print(y)
+print(z)
+print(x)
+
+#%%
+import math
+
+print("hello")
+print(re.sub("This", "That", "This is not"))
+print(math.pi)
 \end{lstlisting}
-\end{spacing}
 \end{small}
+\end{spacing}
