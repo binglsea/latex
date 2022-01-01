@@ -2,6 +2,7 @@
 %\documentclass[hep,10pt]{hepbook}
 %\usepackage{HEP}
 \usepackage[utf8]{inputenc}
+\usepackage[OT2,OT1]{fontenc}
 %\pagestyle{empty}
 \input HZcaption
 \input command
@@ -24,7 +25,7 @@
 
 % packages for graphics
 \usepackage{graphicx}
-\graphicspath{ {figs/} }
+\graphicspath{ {code/} }
 \usepackage{wrapfig}
 \usepackage{subcaption}
 \usepackage{capt-of}
@@ -59,6 +60,7 @@
 \MakePerPage{footnote} 
 
 % packages for bibliography
+%\bibliographystyle{alpha}
 \usepackage[backend=biber,style=gb7714-2015,gbpub=false,sorting=none]{biblatex}
 \addbibresource{./ref/ref.bib}
 
@@ -67,6 +69,15 @@
 
 %\usepackage{svg}
 \usepackage{listings}
+\lstset{ % 编程代码整体设置
+	basicstyle=\sffamily,
+	keywordstyle=\bfseries,
+	commentstyle=\rmfamily\itshape,
+	stringstyle=\ttfamily,
+	numbers=left,
+	escapechar=`,
+	numberstyle=\footnotesize
+}
 
 \usepackage{setspace}
 
@@ -123,14 +134,16 @@
 \subfile{chap1/ch1.tex}
 \section{万物皆数?}\subfile{chap1/numbers.tex}
 \section{数的进位制}\subfile{chap1/bases.tex}
+\section{偏爱有理数}\subfile{chap1/rationals.tex}
 \section{尺寸}\subfile{chap1/sizes.tex}
+\section{汉字的数字化}\subfile{chap1/chars.tex}
 \section{颜色}\subfile{chap1/colors.tex}
 \section{美离不开图}\subfile{chap1/graphs.tex}
 
 \part{\begin{lishu}Python 编程\end{lishu}}
 \chapter{Python 入门}\label{chap2}
 \section{关于 Python}\subfile{chap2/py_intro.tex}\label{chap:2.1}
-\section{安装 Python 开发环境集软件 Anaconda}
+\section{安装 Python 开发环境软件集 Anaconda}
  \subfile{chap2/py_install.tex}\label{chap:2.2}
 
 \section{初识 Spyder}

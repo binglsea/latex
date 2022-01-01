@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="122" height="122" viewBox="0 0 122 122">
+    <rect x="1" y="1" width="120" height="120" style="stroke: black; fill:red"/>
+    <polygon points="1,1 81,1 1,41" style="stroke:black; fill:LightGreen"/>
+    <polygon points="1,41 81,41 81,1" style="stroke:black; fill:ForestGreen"/>
+    <polygon points="81,41 121,41 121,121" style="stroke:black; fill:Cyan"/>
+    <polygon points="81,41 81,121 121,121" style="stroke:black; fill:DeepSkyBlue"/>
+</svg>
