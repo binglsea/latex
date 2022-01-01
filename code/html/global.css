@@ -1,0 +1,18 @@
+   h1, h2 {text-align: center;}
+
+   .menu {
+      float:left;
+      width: 20%;
+      min-width: 150px;
+      max-width: 150px;
+      background-color: beige;
+    }
+    .mainContent {
+      float: left;
+      width:80%;
+    }
+
+    .menuitem:hover {
+      color: white;
+      background-color: brown;
+    }
