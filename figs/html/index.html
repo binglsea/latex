@@ -14,16 +14,20 @@
       float:left;
       width:80%;
     }
+
   </style>
   <script>
     function updateIframeSrc(src) {
       document.getElementById("mainContent").src = src;
     }
 
+    function resizeIframe(obj) {
+      obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+    }
   </script>
 </head>
 <body>
-<h1>作图</h1>
+<h1>数学：编程与作图</h1>
 <div class="menu">
   <nav class="cell">
     <div onclick="updateIframeSrc('../svg/html_16colors.svg')"><a>16 种基本颜色</a></div>
@@ -31,6 +35,8 @@
   </nav>
 </div>
 
-<iframe class="mainContent" name="mainContent" id="mainContent" src="../svg/html_16colors.svg" frameborder="0"></iframe>
+<iframe class="mainContent" name="mainContent" id="mainContent"
+        src="../svg/html_16colors.svg"
+        frameborder="0" onload="resizeIframe(this)"></iframe>
 </body>
 </html>
