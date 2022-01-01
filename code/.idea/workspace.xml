@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9a4762a-51da-4113-8c37-892774e6f155" name="默认变更列表" comment="">
-      <change afterPath="$PROJECT_DIR$/html/global.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/html_colors.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/16colors.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/16colors.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/html_colors.eps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/svg/sample.svg" beforeDir="false" afterPath="$PROJECT_DIR$/svg/sample.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
