@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d0d9e565-3330-4896-9a92-657794e5bd33" name="默认变更列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/png/safari_color_picker.png" beforeDir="false" afterPath="$PROJECT_DIR$/png/safari_color_picker.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/color_input.html" beforeDir="false" afterPath="$PROJECT_DIR$/html/color_input.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/global.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,5 +70,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
