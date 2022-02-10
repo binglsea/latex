@@ -1,0 +1,24 @@
+<head>
+  <meta charset="UTF-8">
+</head>
+<h2>HTML 调色板演示</h2>
+
+用 HTML 调色板调出颜色:
+<p></p>
+<div>
+  <label for="txt">&nbsp; 选择文字颜色</label> &nbsp;
+  <input type="color" id="txt" name="txt" value="#000000"
+         onchange="document.getElementById('expr').style.color = this.value">
+</div>
+
+<div>
+  <label for="bg">&nbsp; 选择背景颜色</label> &nbsp;
+  <input type="color" id="bg" name="bg" value="#fff5ee"
+         onchange="document.getElementById('expr').style.backgroundColor = this.value">
+</div>
+
+<p></p>
+<h1 id="expr" style="border-style: dotted; background-color: #fff5ee; font-family: kai;">&nbsp; 数学表达美和创造美!</h1>
+
+<p></p>
+

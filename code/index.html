@@ -3,19 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>数学：编程与作图, Python、PostScript 和 SVG 的浅入</title>
-  <style>
-   h1, h2 {text-align: center;}
-   .menu {
-      float:left;
-      width:20%;
-      background-color: beige;
-    }
-    .mainContent {
-      float:left;
-      width:80%;
-    }
-
-  </style>
+  <link rel="stylesheet" href="html/global.css">
   <script>
     function updateIframeSrc(src) {
       document.getElementById("mainContent").src = src;
@@ -30,13 +18,14 @@
 <h1>数学：编程与作图</h1>
 <div class="menu">
   <nav class="cell">
-    <div onclick="updateIframeSrc('16colors.html')"><a>16 种基本颜色</a></div>
-    <div onclick="updateIframeSrc('../svg/html_colors.svg')"><a>141 种颜色</a></div>
+    <div class="menuitem" onclick="updateIframeSrc('html/color_input.html')"><a>HTML 调色板演示</a></div>
+    <div class="menuitem" onclick="updateIframeSrc('html/16colors.html')"><a>16 种基本颜色</a></div>
+    <div class="menuitem" onclick="updateIframeSrc('html/html_colors.html')"><a>141 种颜色</a></div>
   </nav>
 </div>
 
 <iframe class="mainContent" name="mainContent" id="mainContent"
-        src="../svg/html_16colors.svg"
+        src="html/color_input.html"
         frameborder="0" onload="resizeIframe(this)"></iframe>
 </body>
 </html>

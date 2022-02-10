@@ -31,10 +31,21 @@
 	\end{tabular}
 \end{center}
 
+HTML \index{HTML 超文本标记语言}的标签\index{tag, 标签} <input type="color"> 可为网页搭建一个调色板.
+不同的浏览器实施各不相同. 苹果浏览器 Safari 展示的调色板如 \ref{fig:1.4.2},
+其首选正是“ 赤橙黄绿青蓝紫”,紫前加上洋红 (magenta), 紫后加上棕白灰黑.
+
+\begin{figure}
+	\centering
+	\includegraphics{png/safari_color_picker.png}
+	\caption{苹果浏览器 Safari 的 HTML 调色板}
+	\label{fig:1.4.2}
+\end{figure}
+
 SVG\index{SVG, Scalable Vector Graphics} 1.1中定义了148 种颜色的英文名\footnote{ \texttt{https://www.w3.org/TR/SVG11/types.html}}, 
 后来也包括在了 CSS \footnote{Cascade Style Sheet: 在 HTML 中用来添加样式的语言.} 4 中 \footnote{ \texttt{https://www.w3.org/TR/css-color-4/}}.
 所有互联网浏览器都支持 HTML/CSS 使用其中 141 种颜色的英文名.
-用 Python 编程 SVG 生成的这些颜色如 图\ref{fig:1.4.2}.
+用 Python 编程 SVG 生成的这些颜色如 图\ref{fig:1.4.3}.
 但对比实际生成的颜色发现,个别用英文名生成的颜色有偏差,如 FireBrick (耐火红砖)和
 VioletRed (紫红). 另外也应注意Green (绿色 \#{}008000)和Lime (鲜绿色 \#{}00FF00)的确切 RGB 定义. RGB 是我们接着要讨论的.
 
@@ -42,19 +53,18 @@ VioletRed (紫红). 另外也应注意Green (绿色 \#{}008000)和Lime (鲜绿�
 	\centering
 	\includegraphics[width=.98\columnwidth]{eps/html_colors.eps}
 	\caption{HTML/SVG 支持的 141 种颜色}
-	\label{fig:1.4.2}
+	\label{fig:1.4.3}
 \end{figure}
 
 最常用的则是 HTML
  \index{HTML 超文本标记语言} 4.01 
- 最初支持的 16 种基本颜色, 如图 \ref{fig:1.4.3}. 
+ 最初支持的 16 种基本颜色, 如图 \ref{fig:1.4.4}. 
 
-\begin{figure}
+\begin{figure}[h]
 	\centering
 	\includegraphics[width=.98\columnwidth]{eps/html_16colors.eps}
-	\caption{HTML的 16 种基本颜色}
+	\caption{HTML 的 16 种基本颜色}
 	\label{fig:1.4.3}
 \end{figure}
-
 
 http://www.w3.org/TR/html5/
