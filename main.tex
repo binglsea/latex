@@ -129,17 +129,25 @@
 \mainmatter
 \pagenumbering{arabic}
 
-\part{\begin{lishu}数学：表达美和创造美\end{lishu}}\label{part:表达美和创造美}
-\subfile{chap1/ch1.tex}
-\chapter{数学：表达美和创造美}\label{chap:1}
-\section{万物皆数?}\subfile{chap1/numbers.tex}
+\part{\begin{lishu}数学：表达美和创造美\end{lishu}}\label{partI}
+\subfile{part1_intro.tex}
+\chapter{数学：表达美和创造美}\label{ch1}
+ \begin{flushright}
+	\begin{kaishu}
+		万物皆数.\\
+	\end{kaishu}
+	- 毕达哥拉斯
+ \end{flushright}
+\section{万物皆数?}\label{ch1.1}
+  \subfile{chap1/numbers.tex}
 \section{数的进位制}\subfile{chap1/bases.tex}
 \section{偏爱有理数}\subfile{chap1/rationals.tex}
 \section{尺寸}\subfile{chap1/sizes.tex}
 \section{汉字的数字化}\subfile{chap1/chars.tex}
 \section{颜色}\subfile{chap1/colors.tex}
 
-\chapter{图: 证明可视化的美}\subfile{chap1/graphs.tex}
+\chapter{图: 更优美地表达数学}\label{ch2}
+\subfile{chap1/graphs.tex}
 
 \part{\begin{lishu}Python 编程\end{lishu}}\label{partII}
 \chapter{Python 入门}\label{chap3}
