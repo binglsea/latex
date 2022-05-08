@@ -16,7 +16,7 @@
 
 % package for colors
 \usepackage{xcolor}
-\usepackage[contents=征求意见稿22.03]{background}
+\usepackage[contents=征求意见稿22.05]{background}
 
 % packages for fonts
 \usepackage{amsmath}
@@ -94,21 +94,26 @@
 \renewcommand{\proof}{\color{gray}\oldproof}
 % counter controlling
 \usepackage{chngcntr}
+\counterwithin{section}{chapter}
 \counterwithin{figure}{section}
 \counterwithin{equation}{section}
 \counterwithin{definition}{section}
 \counterwithin{theorem}{section}
 \counterwithin{lemma}{section}
 \counterwithin{example}{section}
-\counterwithin{section}{part}
 \setcounter{tocdepth}{1}
 
 % package for subfiles
 \usepackage{subfiles}
 
 %\usepackage{datetime2}
+\usepackage{verbatim} 
+
+\usepackage{titlesec}
+\titleformat{\section}[block]{\filcenter\scshape\bfseries\Large}{$\S$\,\thesection.}{0.5em}{}
 
 \frontmatter
+
 
 \title{\begin{kaishu}数学：编程与作图\end{kaishu}\\
 	Python、PostScript 和 SVG 的浅入}
