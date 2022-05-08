@@ -16,7 +16,7 @@
 
 % package for colors
 \usepackage{xcolor}
-\usepackage[contents=征求意见稿22.03]{background}
+\usepackage[contents=征求意见稿22.05]{background}
 
 % packages for fonts
 \usepackage{amsmath}
@@ -94,21 +94,26 @@
 \renewcommand{\proof}{\color{gray}\oldproof}
 % counter controlling
 \usepackage{chngcntr}
+\counterwithin{section}{chapter}
 \counterwithin{figure}{section}
 \counterwithin{equation}{section}
 \counterwithin{definition}{section}
 \counterwithin{theorem}{section}
 \counterwithin{lemma}{section}
 \counterwithin{example}{section}
-\counterwithin{section}{part}
 \setcounter{tocdepth}{1}
 
 % package for subfiles
 \usepackage{subfiles}
 
 %\usepackage{datetime2}
+\usepackage{verbatim} 
+
+\usepackage{titlesec}
+\titleformat{\section}[block]{\filcenter\scshape\bfseries\Large}{$\S$\,\thesection.}{0.5em}{}
 
 \frontmatter
+
 
 \title{\begin{kaishu}数学：编程与作图\end{kaishu}\\
 	Python、PostScript 和 SVG 的浅入}
@@ -129,17 +134,28 @@
 \mainmatter
 \pagenumbering{arabic}
 
-\part{\begin{lishu}数学：表达美和创造美\end{lishu}}\label{part:表达美和创造美}
-\chapter{数学：表达美和创造美}\label{chap:1}
-\subfile{chap1/ch1.tex}
-\section{万物皆数?}\subfile{chap1/numbers.tex}
-\section{数的进位制}\subfile{chap1/bases.tex}
-\section{偏爱有理数}\subfile{chap1/rationals.tex}
-\section{尺寸}\subfile{chap1/sizes.tex}
-\section{汉字的数字化}\subfile{chap1/chars.tex}
-\section{颜色}\subfile{chap1/colors.tex}
+\part{\begin{lishu}数学：表达美和创造美\end{lishu}}\label{partI}
+  \subfile{part1.tex}
+\chapter{数学：表达美和创造美}\label{ch1}
+  \subfile{chap1/ch1.tex}
+\section{万物皆数?}\label{ch1.1}
+\subfile{chap1/1.1_nat_num.tex}
+\section{无限}\label{ch1.2}
+\subfile{chap1/1.2_infinite.tex}
+\section{数的进位制}
+\subfile{chap1/bases.tex}
+\section{偏爱有理数}
+\subfile{chap1/rationals.tex}
+\section{尺寸}
+\subfile{chap1/sizes.tex}
+\section{汉字的数字化}
+\subfile{chap1/chars.tex}
+\section{颜色}
+\subfile{chap1/colors.tex}
 
-\chapter{图: 证明可视化的美}\subfile{chap1/graphs.tex}
+\chapter{图: 更优美地表达数学}\label{ch2}
+\section{作图证明}
+\subfile{chap2/graphs.tex}
 
 \part{\begin{lishu}Python 编程\end{lishu}}\label{partII}
 \chapter{Python 入门}\label{chap3}
